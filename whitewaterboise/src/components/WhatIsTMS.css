@@ -1,0 +1,79 @@
+/* TMS Container */
+.tms-container {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    padding: 100px 20px;
+    background-color: #f3b9b9; /* Soft background for contrast */
+    color: #333; /* Dark text for better readability */
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Trigger the fade-in when the element is in view */
+  .fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Main Heading Styling */
+  .tms-container h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #007BFF; /* Accent color for the heading */
+    letter-spacing: 1px;
+    position: relative;
+  }
+  
+  /* Add an underline under the heading */
+  .tms-container h2::after {
+    content: '';
+    width: 80px;
+    height: 4px;
+    background-color: #007BFF;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Paragraph Styling */
+  .tms-container p {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: #666; /* Softer text color for readability */
+  }
+  
+  /* Icon Section to highlight benefits */
+  .icon-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 50px auto;
+  }
+  
+  /* Individual Icon Box */
+  .icon-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+  }
+  
+  .icon-box img {
+    width: 60px;
+    margin-bottom: 20px;
+  }

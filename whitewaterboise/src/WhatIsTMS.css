@@ -1,0 +1,33 @@
+.tms-container {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    padding: 80px 20px;
+    background-color: #f4f4f9; /* Light background for contrast */
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  /* Trigger the fade-in when the element is in view */
+  .fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .tms-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .tms-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Optional styling to make this section visually different */
+  .tms-container {
+    background-color: #f7f7ff;
+    color: #333;
+  }
