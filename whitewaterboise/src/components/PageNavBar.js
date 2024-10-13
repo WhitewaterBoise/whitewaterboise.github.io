@@ -5,7 +5,7 @@ export default function PageNavBar() {
     <Navbar fluid rounded>
 <Navbar.Brand href="/">
         <img src={logo} className="mr-3 h-9 sm:h-9" alt="Flowbite React Logo" />
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">White Water TMS - Boise</span>
+        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Whitewater TMS - Boise</span>
       </Navbar.Brand>
       <div className="flex md:order-2">
         <Navbar.Toggle />

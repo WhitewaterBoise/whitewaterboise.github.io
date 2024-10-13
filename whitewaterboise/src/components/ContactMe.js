@@ -8,6 +8,7 @@ const ContactMe = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone:'',
     message: '',
   });
 
@@ -28,7 +29,7 @@ const ContactMe = () => {
     <><PageNavBar></PageNavBar>
       <div style={{
         backgroundImage: `url(${hero})`,
-        height: "80vh",
+        height: "125vh",
         backgroundSize: "cover",
         backgroundPosition: "center",
         // display: "flex"
@@ -49,6 +50,15 @@ const ContactMe = () => {
                   style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </a>
             </div>
+            <div class="col-sm">
+
+<div href="#" className=" w-full block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Parking instrution: </h5>
+
+
+</div>
+</div>
             <div class="col-sm">
               <div href="#" className=" w-full block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hours of Operation:</h5>
@@ -75,6 +85,18 @@ const ContactMe = () => {
                         onChange={handleChange}
                         required
                       />
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="phone">Phone:</label>
+                      <input
+                        type="phone"
+                        id="phone"
+                        name="phone"
+                        value={formData.email}
+                        onChange={handleChange}
+                        required
+                      />
+
                     </div>
                     <div className="form-group">
                       <label htmlFor="email">Email:</label>

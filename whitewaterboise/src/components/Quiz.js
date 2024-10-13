@@ -77,7 +77,10 @@ export default function Quiz() {
             <div className='flex flex-col h-screen my-auto items-center'>
                 <br />
                 <div >
-                    <h1 style={{ fontSize: "20px" }}><strong>Patient Health Questionnaire</strong></h1>
+                    <h1 style={{ fontSize: "20px" }}><strong>Patient Health Self Accessment Questionnaire</strong></h1>
+                    <h2 style={{ fontSize: "15px" }}>This questionnaire is not to be considered a medical diagnosis. After completing your questionnaire, please contact us to determine what steps may be best for you.
+
+If you are experiencing a mental health crisis or are experiencing thoughts of self-harm, call the National Suicide Hotline at 800-273-TALK (8255). If you are experiencing a medical emergency, call 911 immediately.</h2>
                     <br />
                     <Question
                         label="1. Little interest or pleasure in doing things."
