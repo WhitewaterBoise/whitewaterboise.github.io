@@ -1,6 +1,6 @@
 /* Services Hero Section */
 .services-hero {
-    background-color: rgba(66, 253, 41, 0.082);
+    background-color: rgba(253, 41, 172, 0.082);
     height: 20vh;
     display: flex;
     justify-content: center;
@@ -72,7 +72,7 @@
   .service-item h2 {
     font-size: 24px;
     margin-bottom: 15px;
-    color: #007BFF;
+    color: #6f00ff9c;
   }
   
   .service-item p {

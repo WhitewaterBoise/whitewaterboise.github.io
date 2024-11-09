@@ -1,8 +1,17 @@
 import React from 'react';
+import { useNavigate} from 'react-router-dom';
 import './statics/Services.css'; // CSS file for styling
 import PageNavBar from './PageNavBar';
 import PageFooter from './PageFooter';
 const Services = () => {
+  const navigate = useNavigate();
+  const handleSelection = (path) => {
+    navigate(path);
+  };
+  function scrollToBottom() {
+    window.scrollTo({ bottom: 0, behavior: 'smooth' });
+  }
+
   return (
 
     <div>
@@ -84,7 +93,7 @@ const Services = () => {
             Schedule a consultation with our experienced team to find out if TMS
             therapy is the right choice for you.
           </p>
-          <button className="cta-button">Schedule a Consultation</button>
+          <button  onClick={() =>{ handleSelection("/contact"); scrollToBottom()}} className="cta-button">Schedule a Consultation</button>
         </div>
       </section>
       <PageFooter></PageFooter>

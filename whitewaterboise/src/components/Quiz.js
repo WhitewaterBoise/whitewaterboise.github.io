@@ -209,9 +209,9 @@ hurting yourself."
 
                             </fieldset>
                             {/* Submit button to calculate the total score */}
-                            <button
+                            <button 
                                 onClick={calculateScore}
-                                style={{ marginTop: "20px", padding: "10px 20px", backgroundColor: "black", color: "white", border: "none", borderRadius: "5px" }}>
+                                style={{ marginTop: "20px", padding: "10px 20px", backgroundColor: "#d42a38", color: "white", border: "none", borderRadius: "5px" }}>
                                 Submit
                             </button>
 
