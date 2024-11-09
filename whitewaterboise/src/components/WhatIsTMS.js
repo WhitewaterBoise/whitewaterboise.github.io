@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './WhatIsTMS.css'; // Custom CSS for styling
+import './statics/WhatIsTMS.css'; // Custom CSS for styling
 import { useNavigate} from 'react-router-dom';
 const WhatIsTMS = () => {
   const [isVisible, setIsVisible] = useState(false);

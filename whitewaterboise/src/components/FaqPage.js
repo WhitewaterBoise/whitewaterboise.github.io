@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import PageFooter from "./PageFooter";
 import PageNavBar from "./PageNavBar";
-import './Faq.css';
+import './statics/Faq.css';
 // Sample FAQ Data
 const faqData = [
   {

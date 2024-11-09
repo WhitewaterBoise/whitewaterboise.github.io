@@ -27,7 +27,7 @@ const Home = () => {
                     <p>Your journey to mental wellness starts here</p>
                     <button className="cta-button" onClick={() => handleSelection("/about")}>Get Started</button>
                     <div className="scroll-down" onClick={scrollToTMSSection}>
-                        <span>&#x25BC;</span> {/* Unicode for a down arrow */}
+                        <span style={{fontSize:"40px"}}>&#x25BC;</span> {/* Unicode for a down arrow */}
                     </div>
                 </div>
             </div>

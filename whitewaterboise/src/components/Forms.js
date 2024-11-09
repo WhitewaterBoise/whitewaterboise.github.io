@@ -2,7 +2,7 @@ import React from "react";
 import PageFooter from "./PageFooter";
 import PageNavBar from "./PageNavBar";
 
-import './Forms.css';
+import './statics/Forms.css';
 import { useNavigate } from "react-router-dom"; // Or whichever router you're using
 
 const Forms = () => {

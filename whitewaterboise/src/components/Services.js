@@ -1,7 +1,6 @@
 import React from 'react';
-import './Services.css'; // CSS file for styling
+import './statics/Services.css'; // CSS file for styling
 import PageNavBar from './PageNavBar';
-import hero from './statics/hero.jpg'
 import PageFooter from './PageFooter';
 const Services = () => {
   return (

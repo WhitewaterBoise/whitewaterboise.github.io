@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css'; // Import CSS for styling
+import './statics/About.css'; // Import CSS for styling
 import PageNavBar from './PageNavBar';
 import PageFooter from './PageFooter';
 const About = () => {

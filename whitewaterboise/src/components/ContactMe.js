@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import './ContactMe.css'; // Importing the CSS file
+import './statics/ContactMe.css'; // Importing the CSS file
 import { ClipLoader } from 'react-spinners'; // Importing the spinner from react-spinners
 import PageNavBar from './PageNavBar';
 import PageFooter from './PageFooter';
 import hero from './statics/hero.jpg'
+
 const ContactMe = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -39,7 +40,7 @@ const ContactMe = () => {
           <div class="row">
             <div class="col-sm">
 
-              <a href="#" className=" w-full block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <div href="" className=" w-full block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Contact us:</h5>
 
@@ -48,8 +49,9 @@ const ContactMe = () => {
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.9369209997717!2d-116.23205403613879!3d43.63393518296199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aef8cc34d7537f%3A0x47448f4ebf5eff8c!2s908%20N%20Whitewater%20Park%20Blvd%2C%20Boise%2C%20ID%2083703!5e0!3m2!1sen!2sus!4v1728517906415!5m2!1sen!2sus"
                   width="auto"
                   height="350"
+                  title='map'
                   style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </a>
+              </div>
             </div>
             <div class="col-sm">
 
@@ -74,7 +76,7 @@ const ContactMe = () => {
                     <ClipLoader color="#007BFF" size={50} />
                     <p>Sending your message...</p>
                   </div>
-                ) : (
+                ) : (<></>)}
                   <form className="contact-form" action="https://formsubmit.co/whitewaterboise@gmail.com" method="POST">
                     <div className="form-group">
                       <label htmlFor="name">Name:</label>
@@ -93,7 +95,7 @@ const ContactMe = () => {
                         type="phone"
                         id="phone"
                         name="phone"
-                        value={formData.email}
+                        value={formData.phone}
                         onChange={handleChange}
                         required
                       />
@@ -123,7 +125,7 @@ const ContactMe = () => {
                     {/* <input type="hidden" name="_captcha" value="false" /> */}
                     <input type="text" name="_honey" style={{ display: 'none' }}></input>
                     <input type="hidden" name="_next" value="http://localhost:3000/" />
-                    <a > <button className="submit-btn" type="submit">Send</button></a>
+                    <div onClick={()=>setLoading(true)}> <button className="submit-btn" type="submit" >Send</button></div>
                     <div className='flex'>
                                 <span> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"
                                     style={{ fill: "#228BE6", width: "19px", height: "19px" }}>
@@ -135,7 +137,6 @@ const ContactMe = () => {
                                 </span>
                             </div>
                   </form>
-                )}
               </div>
             </div>
           </div>

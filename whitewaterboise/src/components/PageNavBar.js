@@ -1,4 +1,4 @@
-import { Button, Navbar } from "flowbite-react";
+import { Navbar } from "flowbite-react";
 import logo from "./logo192.png"
 export default function PageNavBar() {
   return (

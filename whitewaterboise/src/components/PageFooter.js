@@ -8,7 +8,7 @@ const PageFooter = () => {
                 <div className="w-full text-center text-white">
                     <Footer.Copyright href="#" by="Whitewater TMS" year={2024} />
                     <Footer.LinkGroup className="mt-4">
-                        <Footer.Link href="#" className="text-white hover:text-cyan-300">
+                        <Footer.Link href="about" className="text-white hover:text-cyan-300">
                             About Us
                         </Footer.Link>
                         <Footer.Link href="#" className="text-white hover:text-cyan-300">
