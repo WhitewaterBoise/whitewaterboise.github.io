@@ -110,7 +110,8 @@ const ContactMe = () => {
                   </div>
                   {/* <input type="hidden" name="_captcha" value="false" /> */}
                   <input type="text" name="_honey" style={{ display: 'none' }}></input>
-                  <input type="hidden" name="_next" value="http://localhost:3000/" />
+                  <input type="hidden" name="_url" value="https://victorious-river-044b83f10.5.azurestaticapps.net/contact.html"></input>
+                  <input type="hidden" name="_next" value="https://victorious-river-044b83f10.5.azurestaticapps.net" />
                   <div onClick={() => setLoading(true)}> <button className="submit-btn" type="submit" >Send</button></div>
                   <div className='flex'>
                     <span> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"

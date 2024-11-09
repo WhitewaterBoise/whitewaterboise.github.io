@@ -7,20 +7,28 @@ import './statics/Faq.css';
 const faqData = [
   {
     question: "What is TMS?",
-    answer: "TMS, or Transcranial Magnetic Stimulation, is a non-invasive procedure that uses magnetic fields to stimulate nerve cells in the brain."
+    answer: "TMS, or Transcranial Magnetic Stimulation, is a non-drug, noninvasive treatment that uses magnetic fields to stimulate specific brain regions to improve symptoms of depression. It is often used in cases where patients have treatment-resistant depression that have not found success with traditional methods such as antidepressant drugs or psychotherapies.  "
   },
   {
     question: "How does TMS work?",
-    answer: "TMS uses electromagnetic pulses to target specific areas of the brain associated with mood regulation, helping improve symptoms of depression."
+    answer: "TMS uses focused electromagnetic pulses to target specific underactive areas of the brain associated with mood regulation. By stimulating these underactive brain regions, patients can have a lasting relief from symptoms of depression."
   },
   {
     question: "Is TMS safe?",
-    answer: "Yes, TMS is considered a safe and effective treatment for depression with minimal side effects."
+    answer: "Yes, TMS is considered a very safe and effective treatment. NeuroStar TMS was FDA approved in 2008 for adults with Major Depressive Disorder (MDD) and has since then been approved for the adjunct treatment for Obsessive-Compulsive Disorder (OCD) and MDD with comorbid anxiety. NeuroStar TMS is also the first and only FDA approved TMS therapy for the adjunct treatment of MDD in adolescent patients (15-21)."
   },
   {
-    question: "Hi there",
-    answer: "Yes, TMS is considered a safe and effective treatment for depression with minimal side effects."
-  }
+    question: "Doese the treatment hurt?",
+    answer: "Most patients do not feel any pain during treatments. Patients may feel the magnet pulsing which is often described as a firm tapping sensation on the head or scalp. The most commonly reported side effect is mild pain or discomfort at or near the treatment site, usually only during the first week of treatment."
+  },
+  {
+   question: "How long is a TMS treatment?",
+    answer: "A typical standard TMS treatment plan will have 36 sessions lasting 19-37 minutes each."
+  },
+  {
+    question: "Is TMS therapy covered by insurance?",
+     answer: "TMS therapy is covered by most major insurance plans."
+   },
 ];
 
 // FAQ Item Component
