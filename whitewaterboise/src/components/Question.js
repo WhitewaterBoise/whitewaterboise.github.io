@@ -1,20 +1,6 @@
 import React from 'react';
 import { Label } from "flowbite-react";
 const Question = ({ label, value, onChange, response ,step}) => {
-    // Function to handle slider change
-    const handleSliderChange = (e, setFunction, setResponseFunction ) => {
-        setFunction(e.target.value);
-        console.log(e.target.value)
-        if (e.target.value < 25) {
-            setResponseFunction("Not at all")
-        } else if (e.target.value <= 50) {
-            setResponseFunction("Several days")
-        } else if (e.target.value <= 75) {
-            setResponseFunction("More than half of the days")
-        } else if (e.target.value <= 100) {
-            setResponseFunction("Nearly everyday")
-        }
-    };
 
     // Function to dynamically set the thumb color based on the value
     const getThumbColor = (value) => {

@@ -1,11 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
-import PageNavBar from "./components/PageNavBar"
 import Home from "./components/Home"
 import Quiz from './components/Quiz'
-import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import GoogleCalender from './components/Calendar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Services from "./components/Services"
 import ContactMe from './components/ContactMe';
 import About from './components/About'

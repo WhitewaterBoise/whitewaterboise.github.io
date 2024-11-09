@@ -81,7 +81,6 @@ export default function Quiz() {
         message: '',
     });
 
-    const [loading, setLoading] = useState(false); // Track loading state
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -278,7 +277,7 @@ hurting yourself."
                             {/* <input type="hidden" name="_captcha" value="false" /> */}
                             <input type="text" name="_honey" style={{ display: 'none' }}></input>
                             <input type="hidden" name="_next" value="http://localhost:3000/" />
-                            <a > <button className="submit-btn" type="submit">Send</button></a>
+                            <div > <button className="submit-btn" type="submit">Send</button></div>
                             <div className='flex'>
                                 <span> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"
                                     style={{ fill: "#228BE6", width: "19px", height: "19px" }}>
