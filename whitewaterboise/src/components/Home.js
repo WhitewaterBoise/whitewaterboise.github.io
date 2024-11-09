@@ -1,7 +1,6 @@
 import React from 'react';
 import PageNavBar from './PageNavBar';
 import WhatIsTMS from './WhatIsTMS';
-import { Button, Card, } from 'flowbite-react';
 import PageFooter from './PageFooter';
 import hero from './statics/hero.jpg'
 

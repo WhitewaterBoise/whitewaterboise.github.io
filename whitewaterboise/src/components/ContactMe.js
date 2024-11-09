@@ -8,7 +8,7 @@ const ContactMe = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    phone:'',
+    phone: '',
     message: '',
   });
 
@@ -21,20 +21,21 @@ const ContactMe = () => {
       [name]: value,
     });
   };
-  const handleSubmit = (e) => {
-    setLoading(true); // Show loading spinner immediately on submit
-  };
 
   return (
     <><PageNavBar></PageNavBar>
-      <div style={{
+      <div className=  "contact-us"
+      style={{
         backgroundImage: `url(${hero})`,
-        height: "125vh",
+        height: "100vh",
+        paddingTop:"20px",
+        position: "relative",
         backgroundSize: "cover",
         backgroundPosition: "center",
+
         // display: "flex"
       }}>
-        <div className='container' >
+        <div className='container'>
           <div class="row">
             <div class="col-sm">
 
@@ -52,17 +53,17 @@ const ContactMe = () => {
             </div>
             <div class="col-sm">
 
-<div href="#" className=" w-full block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <div href="#" className=" w-full block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Parking instrution: </h5>
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Parking instruction: </h5>
+      <p>You can choose to either park on the streets or in the overflow parking lots.</p>
 
-
-</div>
-</div>
+              </div>
+            </div>
             <div class="col-sm">
               <div href="#" className=" w-full block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hours of Operation:</h5>
-
+              <p>Flexible hours. </p>
               </div>
             </div>
             <div class="col-sm">
@@ -123,6 +124,16 @@ const ContactMe = () => {
                     <input type="text" name="_honey" style={{ display: 'none' }}></input>
                     <input type="hidden" name="_next" value="http://localhost:3000/" />
                     <a > <button className="submit-btn" type="submit">Send</button></a>
+                    <div className='flex'>
+                                <span> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"
+                                    style={{ fill: "#228BE6", width: "19px", height: "19px" }}>
+                                    <path d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 25 11 A 3 3 0 0 0 22 14 A 3 3 0 0 0 25 17 A 3 3 0 0 0 28 14 A 3 3 0 0 0 25 11 z M 21 21 L 21 23 L 22 23 L 23 23 L 23 36 L 22 36 L 21 36 L 21 38 L 22 38 L 23 38 L 27 38 L 28 38 L 29 38 L 29 36 L 28 36 L 27 36 L 27 21 L 26 21 L 22 21 L 21 21 z"></path>
+                                </svg>
+                                </span>
+                                <span>
+                                    <h2 style={{ fontSize: "12px", alignItems: "center" }}>Information will be stored in our official Gmail inbox. Information will not be shared with third-party services.</h2>
+                                </span>
+                            </div>
                   </form>
                 )}
               </div>

@@ -66,7 +66,7 @@ const Question = ({ label, value, onChange, response ,step}) => {
 
     return (
         <>
-        <hr style={{ border: "1px solid #7c8f86",marginTop:"1em",margin:"0 2px 0 2em" }} />
+        <hr style={{borderWidth:"2px", marginTop:"1em",margin:"0 2px 0 2em", borderImage: 'linear-gradient(to right,   #dfe8f7, #50eb7c, #ebbd50, #f52f7b, #dfe8f7) 2'}} />
         
         <div className="slider-container mb-2">
             

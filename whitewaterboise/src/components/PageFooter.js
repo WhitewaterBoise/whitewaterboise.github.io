@@ -6,7 +6,7 @@ const PageFooter = () => {
         <>
             <Footer container className="mt-auto bg-gray-900 py-8 rounded-none">
                 <div className="w-full text-center text-white">
-                    <Footer.Copyright href="#" by="TMS Depression Treatment Clinic" year={2024} />
+                    <Footer.Copyright href="#" by="Whitewater TMS" year={2024} />
                     <Footer.LinkGroup className="mt-4">
                         <Footer.Link href="#" className="text-white hover:text-cyan-300">
                             About Us

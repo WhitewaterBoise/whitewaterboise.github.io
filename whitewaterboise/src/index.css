@@ -22,6 +22,8 @@ code {
   width: 80%;
   margin: 50px auto;
   text-align: center;
+  max-width:500px;
+  margin:0 auto;
 }
 
 /* Style the slider track */
@@ -29,6 +31,7 @@ code {
   -webkit-appearance: none; /* Remove default WebKit appearance */
   appearance: none;
   width: 100%;
+  max-width:500px;
   height: 15px;
   background: var(--SliderBackgroundColor);
   border-radius: 10px;
@@ -86,9 +89,9 @@ code {
   .slider-container {
       width: 60%; /* Full width on very small screens */
   }
-  /* .quiz-container{
-    height:"2800px";
-  } */
+  .container {
+    height:200vh !important;
+  }
 }
 .hero-container {
   height: 100vh; 
@@ -163,4 +166,10 @@ code {
     padding: 12px 25px;
     font-size: 16px;
   }
+  .container {
+    height:200vh;
+  }
+
+
 }
+
