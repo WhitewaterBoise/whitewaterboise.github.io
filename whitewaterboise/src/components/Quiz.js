@@ -69,7 +69,7 @@ export default function Quiz() {
         } else if (adjustedScore >= 1) {
             setComment("Minimal Depression")
         } else {
-            setComment("Fuck off")
+            setComment("No sign of depression. ")
         }
     };
 

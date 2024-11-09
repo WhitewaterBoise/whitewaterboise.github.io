@@ -1,6 +1,6 @@
 /* Hero Section */
 .about-hero {
-    background-color: rgba(13, 165, 8, 0.616);
+    background-color: rgba(206, 34, 63, 0.082);
     height: 20vh;
     display: flex;
     justify-content: center;
@@ -10,12 +10,31 @@
   }
   
   .about-hero .hero-content h1 {
-    font-size: 48px;
+    font-size: 40px;
     margin-bottom: 20px;
+    font-weight: bold;
+    background: linear-gradient(
+      to right,
+      rgba(170, 102, 216, 0.925),
+      rgb(211, 74, 177),
+      rgb(199, 35, 90)
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
   }
   
   .about-hero .hero-content p {
     font-size: 20px;
+    background: linear-gradient(
+      to right,
+      rgba(170, 102, 216, 0.753),
+      rgb(211, 74, 177),
+      rgb(199, 35, 90)
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
   }
   
   /* Team Section */
@@ -47,7 +66,15 @@
   
   .team-member-info h2 {
     font-size: 28px;
-    color: #007BFF;
+    background: linear-gradient(
+      to right,
+      rgba(170, 102, 216, 0.925),
+      rgb(211, 74, 177),
+      rgb(199, 35, 90)
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
     margin-bottom: 10px;
   }
   
@@ -83,7 +110,7 @@
   
   .team-member-info ul li::before {
     content: '•';
-    color: #007BFF;
+    color: #a200ff;
     font-size: 24px;
     position: absolute;
     left: -20px;
@@ -93,7 +120,7 @@
   /* Call to Action Section */
   .cta-section {
     padding: 80px 20px;
-    background-color: #007BFF;
+    background-color: #d1b6c98f;
     color: white;
     text-align: center;
   }
@@ -101,16 +128,34 @@
   .cta-content h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    background: linear-gradient(
+      to right,
+      rgba(156, 49, 228, 0.753),
+      rgb(211, 74, 177),
+      rgb(199, 35, 90)
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
   }
   
   .cta-content p {
     font-size: 18px;
     margin-bottom: 40px;
+    background: linear-gradient(
+      to right,
+      rgba(156, 49, 228, 0.753),
+      rgb(211, 74, 177),
+      rgb(199, 35, 90)
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
   }
   
   .cta-button {
     background-color: white;
-    color: #007BFF;
+    color: #b41a34;
     padding: 15px 30px;
     border-radius: 5px;
     font-size: 16px;
@@ -120,7 +165,7 @@
   }
   
   .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #ac0e35;
     color: white;
   }
   

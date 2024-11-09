@@ -1,6 +1,6 @@
 .form1-hero {
     background-color: rgba(85, 207, 156, 0.219);
-    height: 30vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
 
   .form2-hero {
     background-color: rgba(197, 152, 5, 0.219);
-    height: 30vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;

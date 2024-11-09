@@ -1,8 +1,18 @@
 import React from 'react';
+import { useNavigate} from 'react-router-dom';
 import './statics/About.css'; // Import CSS for styling
 import PageNavBar from './PageNavBar';
 import PageFooter from './PageFooter';
 const About = () => {
+  const navigate = useNavigate();
+  const handleSelection = (path) => {
+    navigate(path);
+  };
+  function scrollToBottom() {
+    window.scrollTo({ bottom: 0, behavior: 'smooth' });
+  }
+
+  
   return (
     <><PageNavBar></PageNavBar>
     <div className="about-page">
@@ -69,8 +79,10 @@ const About = () => {
       <section className="cta-section">
         <div className="cta-content">
           <h2>Ready to Begin Your Journey to Mental Wellness?</h2>
+          <br/>
           <p>Our experienced team is here to guide you through your mental health journey. Schedule a consultation today.</p>
-          <button className="cta-button">Schedule a Consultation</button>
+          <br/>
+          <button onClick={() =>{ handleSelection("/contact"); scrollToBottom()}} className="cta-button">Schedule a Consultation</button>
         </div>
       </section>
     </div>

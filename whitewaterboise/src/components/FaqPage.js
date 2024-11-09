@@ -16,6 +16,10 @@ const faqData = [
   {
     question: "Is TMS safe?",
     answer: "Yes, TMS is considered a safe and effective treatment for depression with minimal side effects."
+  },
+  {
+    question: "Hi there",
+    answer: "Yes, TMS is considered a safe and effective treatment for depression with minimal side effects."
   }
 ];
 

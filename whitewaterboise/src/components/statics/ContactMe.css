@@ -1,3 +1,112 @@
+/* Hero Section */
+.contact1-hero {
+  background-color:#f0f3f5;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(65, 61, 61, 0.61);
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact1-hero .contact1-content h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background: linear-gradient(
+    to right,
+    rgb(95, 74, 211),
+    rgb(145, 74, 211),
+    violet
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.contact1-hero .hero-content p {
+  font-size: 20px;
+}
+
+.contact2-hero {
+  background-color: #f0f5f0;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:rgba(65, 61, 61, 0.61);
+  text-align: center;
+}
+
+.contact2-hero .contact2-content h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background: linear-gradient(
+    to right,
+    rgb(152, 211, 74),
+    rgb(74, 211, 104),
+    rgb(102, 184, 187)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.contact2-hero .contact2-content p {
+  font-size: 20px;
+}
+
+
+.contact3-hero {
+  background-color: rgba(140, 150, 135, 0.116);
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:rgba(65, 61, 61, 0.61);
+  text-align: center;
+}
+
+.contact3-hero .contact3-content h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background: linear-gradient(
+    to right,
+    rgba(204, 98, 98, 0.863),
+    rgb(211, 124, 74),
+    rgb(187, 164, 102)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.contact3-hero .contact3-content p {
+  font-size: 20px;
+  
+}
+
+
+
+.contact4-hero {
+  background-color: rgba(196, 148, 60, 0.856);
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.contact4-hero .contact4-content h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+
 /* General Container Styling */
 .contact-container {
   max-width: 600px;

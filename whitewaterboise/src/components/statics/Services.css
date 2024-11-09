@@ -1,6 +1,6 @@
 /* Services Hero Section */
 .services-hero {
-    background-color: rgba(12, 197, 5, 0.219);
+    background-color: rgba(66, 253, 41, 0.082);
     height: 20vh;
     display: flex;
     justify-content: center;
@@ -12,10 +12,29 @@
   .services-hero .hero-content h1 {
     font-size: 48px;
     margin-bottom: 20px;
+    font-weight: bold;
+    background: linear-gradient(
+      to right,
+      rgba(144, 98, 204, 0.863),
+      rgb(211, 74, 193),
+      rgb(187, 102, 180)
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
   }
   
   .services-hero .hero-content p {
     font-size: 20px;
+    background: linear-gradient(
+      to right,
+      rgba(144, 98, 204, 0.863),
+      rgb(211, 74, 193),
+      rgb(187, 102, 180)
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
   }
   
   /* Services List Section */

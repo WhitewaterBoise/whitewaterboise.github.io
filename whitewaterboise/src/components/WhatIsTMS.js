@@ -9,6 +9,8 @@ const WhatIsTMS = () => {
   const handleSelection = (path) => {
     navigate(path);
   };
+
+
   // Scroll-triggered visibility
   const handleScroll = () => {
     const section = document.getElementById('tms-section');
@@ -41,8 +43,10 @@ const WhatIsTMS = () => {
         symptoms of depression. It is an effective treatment option for those
         who haven't found success with traditional treatments.
       </p>
-
+      <a href="https://www.mayoclinic.org/tests-procedures/transcranial-magnetic-stimulation/about/pac-20384625"><button className="cta-button" > Learn more from Mayo Clinic </button></a>
+      <br/>
       <button  onClick={() =>{ handleSelection("/quiz"); scrollToTop()}} className="cta-button">Depression Test</button>
+      
     </div>
   );
 };

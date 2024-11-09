@@ -137,10 +137,10 @@ code {
 }
 
 /* Call to Action Button */
-.cta-button {
+.gs-button {
   padding: 15px 30px;
   font-size: 18px;
-  background-color: #007BFF;
+  background-color: #5df337c2;
   color: white;
   border: none;
   border-radius: 5px;

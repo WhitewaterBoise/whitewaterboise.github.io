@@ -25,7 +25,7 @@ const Home = () => {
                 <div className="hero-content">
                     <h1>Welcome to Our TMS Clinic</h1>
                     <p>Your journey to mental wellness starts here</p>
-                    <button className="cta-button" onClick={() => handleSelection("/about")}>Get Started</button>
+                    <button className="gs-button" onClick={() => handleSelection("/about")}>Get Started</button>
                     <div className="scroll-down" onClick={scrollToTMSSection}>
                         <span style={{fontSize:"40px"}}>&#x25BC;</span> {/* Unicode for a down arrow */}
                     </div>
