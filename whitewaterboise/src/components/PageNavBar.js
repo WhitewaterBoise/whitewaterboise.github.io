@@ -16,8 +16,10 @@ export default function PageNavBar() {
         </Navbar.Link>
         <Navbar.Link href="about">About</Navbar.Link>
         <Navbar.Link href="services">Services</Navbar.Link>
-        <Navbar.Link href="quiz">Test </Navbar.Link>
+
         <Navbar.Link href="contact">Contact</Navbar.Link>
+        <Navbar.Link href="faq">FAQ</Navbar.Link>
+        <Navbar.Link href="forms">Forms</Navbar.Link>
         <Navbar.Link href="https://neurostar.com/">NeuroStar</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>

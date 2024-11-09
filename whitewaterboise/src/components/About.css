@@ -1,7 +1,7 @@
 /* Hero Section */
 .about-hero {
     background-color: rgba(13, 165, 8, 0.616);
-    height: 30vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;

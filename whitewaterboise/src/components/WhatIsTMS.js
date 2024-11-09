@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './WhatIsTMS.css'; // Custom CSS for styling
-
+import { useNavigate} from 'react-router-dom';
 const WhatIsTMS = () => {
   const [isVisible, setIsVisible] = useState(false);
 
+  const navigate = useNavigate();
+
+  const handleSelection = (path) => {
+    navigate(path);
+  };
   // Scroll-triggered visibility
   const handleScroll = () => {
     const section = document.getElementById('tms-section');
@@ -20,6 +25,10 @@ const WhatIsTMS = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
   return (
     <div
       id="tms-section"
@@ -32,6 +41,8 @@ const WhatIsTMS = () => {
         symptoms of depression. It is an effective treatment option for those
         who haven't found success with traditional treatments.
       </p>
+
+      <button  onClick={() =>{ handleSelection("/quiz"); scrollToTop()}} className="cta-button">Depression Test</button>
     </div>
   );
 };

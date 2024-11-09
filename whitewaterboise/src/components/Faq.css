@@ -1,0 +1,14 @@
+.faq-hero {
+    background-color: rgba(42, 8, 165, 0.616);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .faq-hero .faq-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
