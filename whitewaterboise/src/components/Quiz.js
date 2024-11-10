@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Question from './Question';
 import PageNavBar from "./PageNavBar"
 import PageFooter from './PageFooter';
+import { ClipLoader } from 'react-spinners';
 import { Label, Radio } from "flowbite-react";
 export default function Quiz() {
 
@@ -41,8 +42,19 @@ export default function Quiz() {
         }
     };
 
+    
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        phone: '',
+        message: '',
+    });
+
+
     const [score, setScore] = useState(0); // State for the total score
     const [comment, setComment] = useState("");
+
+    const [loading, setLoading] = useState(false);
     // Function to calculate the total score
     const calculateScore = () => {
         const totalScore = Number(QOne) +
@@ -73,13 +85,6 @@ export default function Quiz() {
         }
     };
 
-
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        phone: '',
-        message: '',
-    });
 
 
     const handleChange = (e) => {
@@ -209,7 +214,7 @@ hurting yourself."
 
                             </fieldset>
                             {/* Submit button to calculate the total score */}
-                            <button 
+                            <button
                                 onClick={calculateScore}
                                 style={{ marginTop: "20px", padding: "10px 20px", backgroundColor: "#d42a38", color: "white", border: "none", borderRadius: "5px" }}>
                                 Submit
@@ -228,7 +233,12 @@ hurting yourself."
                             )}
                         </div>
                         <br></br>
-
+                        {loading ? (
+                  <div className="loading-screen">
+                    <ClipLoader color="#007BFF" size={50} />
+                    <p>Sending your message...</p>
+                  </div>
+                ) : (<></>)}
                         <form className="contact-form" action="https://formsubmit.co/whitewaterboise@gmail.com" method="POST">
                             <div className="form-group">
                                 <label htmlFor="name">Name:</label>
@@ -275,8 +285,11 @@ hurting yourself."
                                 ></textarea>
                             </div>
                             {/* <input type="hidden" name="_captcha" value="false" /> */}
+
                             <input type="text" name="_honey" style={{ display: 'none' }}></input>
-                            <input type="hidden" name="_next" value="http://localhost:3000/" />
+                            <input type="hidden" name="_url" value="https:/whitewatertms.com/contact.html"></input>
+                            <input type="hidden" name="_next" value="https://whitewatertms.com" />
+                            <div onClick={() => setLoading(true)}> <button className="submit-btn" type="submit" >Send</button></div>
                             <div > <button className="submit-btn" type="submit">Send</button></div>
                             <div className='flex'>
                                 <span> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"

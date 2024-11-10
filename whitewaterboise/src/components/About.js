@@ -60,13 +60,13 @@ const About = () => {
                 <h2> Gayle Matsumuro, PMHNP</h2>
                 <h3>Psychiatric Mental Health Nurse Practitioner</h3>
                 <p>
-                    Under construction
+                Gayle Matsumuro is a dedicated Psychiatric Mental Health Nurse Practitioner (PMHNP) with extensive experience in adolescent and adult mental health care. She specializes in treating mood disorders, anxiety, and depression, with a focus on providing compassionate, individualized care. Gayle is known for her collaborative approach, working closely with teens and their families to create personalized treatment plans. She combines medication management with therapeutic support, helping young patients navigate mental health challenges and build resilience. Passionate about mental health advocacy, Gayle continually stays informed on the latest advancements to offer her patients the best in evidence-based care.
                 </p>
                 <h4>Specializations:</h4>
                 <ul>
-                  <li>PTSD</li>
-                  <li>Trauma-Focused Therapy</li>
-                  <li>Substance Abuse and Addiction</li>
+                <li>Adolescent mentional health </li>
+                  <li>Anxiety Disorders</li>
+                  <li>Obsessive Compulsive Disorder (OCD)</li>
                   <li>TMS Therapy</li>
                 </ul>
               </div>
