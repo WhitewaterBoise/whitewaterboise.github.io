@@ -1,7 +1,7 @@
 /* Hero Section */
 .about-hero {
     background-color: rgba(206, 34, 63, 0.082);
-    height: 20vh;
+    height: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,11 +37,54 @@
     display: inline-block;
   }
   
+  .about-page{
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+  }
   /* Team Section */
   .team-section {
     padding: 80px 20px;
     background-color: #f4f4f9;
+    
+    z-index: 1;
+    margin-bottom: auto;
   }
+  @media (max-width: 780px) {
+    .team-section{
+      height:1600px;
+      min-height: unset;
+    }
+  }
+
+
+  @media (max-width: 750px) {
+    .team-section{
+      height:1800px;
+      min-height: unset;
+    }
+  }
+  @media (max-width: 500px) {
+    .team-section{
+      height:1950px;
+      min-height: unset;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .team-section{
+      height:2000px;
+      min-height: unset;
+    }
+  }
+
+  @media (max-width: 370px) {
+    .team-section{
+      height:2500px;
+      min-height: unset;
+    }
+  }
+
   
   .container {
     max-width: 1200px;
@@ -119,6 +162,7 @@
   
   /* Call to Action Section */
   .cta-section {
+    margin-top: auto;
     padding: 80px 20px;
     background-color: #d1b6c98f;
     color: white;

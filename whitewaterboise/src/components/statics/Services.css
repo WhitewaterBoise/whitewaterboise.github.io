@@ -1,7 +1,7 @@
 /* Services Hero Section */
 .services-hero {
     background-color: rgba(253, 41, 172, 0.082);
-    height: 20vh;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;

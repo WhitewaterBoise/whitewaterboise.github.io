@@ -4,6 +4,7 @@ import './statics/About.css'; // Import CSS for styling
 import PageNavBar from './PageNavBar';
 import PageFooter from './PageFooter';
 import JMB from './statics/bell-jacqueline-hs.jpg';
+import GM from './statics/gayle.png'
 const About = () => {
   const navigate = useNavigate();
   const handleSelection = (path) => {
@@ -15,8 +16,9 @@ const About = () => {
 
 
   return (
-    <><PageNavBar></PageNavBar>
+    <>
       <div className="about-page">
+      <PageNavBar></PageNavBar>
         {/* Hero Section */}
         <section className="about-hero">
           <div className="hero-content">
@@ -33,7 +35,7 @@ const About = () => {
               <img src= {JMB} alt="Jacqueline M. Bell, DO" className="team-member-photo" />
               <div className="team-member-info">
                 <h2>Dr. Jacqueline Bell</h2>
-                <h3>Lead Psychiatrist, MD</h3>
+                <h3>Doctor of Osteopathic Medicine</h3>
                 <p>
                   Jacqueline Bell, DO specializes in addressing the full range of emotional and behavioral difficulties affecting children and adolescents using evidence-based medicine. She has experience working with youths affected by a wide range of behavioral and emotional disturbances like anxiety, depression, aggression, autism, and trauma. She firmly believes in holistic care that encompasses patient and family dynamics, and strives to only use medication when absolutely necessary, at the lowest effective dose.
                   <br />
@@ -53,16 +55,12 @@ const About = () => {
 
             {/* Second Psychiatrist */}
             <div className="team-member">
-              <img src="/images/dr-jones.jpg" alt="Dr. Sarah Jones" className="team-member-photo" />
+              <img src={GM} alt="Gayle Matsumuro" className="team-member-photo" />
               <div className="team-member-info">
-                <h2>Dr. Gayle Matsumuro</h2>
-                <h3>Psychiatrist, DO</h3>
+                <h2> Gayle Matsumuro, PMHNP</h2>
+                <h3>Psychiatric Mental Health Nurse Practitioner</h3>
                 <p>
-                  Dr. Gayle Matsumur is a psychiatrist specializing in treating trauma and stress-related
-                  disorders. She has extensive experience in working with individuals suffering
-                  from Post-Traumatic Stress Disorder (PTSD) and offers a range of therapeutic
-                  approaches including Cognitive Behavioral Therapy (CBT) and TMS. She believes
-                  in a holistic approach to care, focusing on both the mind and body.
+                    Under construction
                 </p>
                 <h4>Specializations:</h4>
                 <ul>
@@ -86,9 +84,10 @@ const About = () => {
             <button onClick={() => { handleSelection("/contact"); scrollToBottom() }} className="cta-button">Schedule a Consultation</button>
           </div>
         </section>
+        <PageFooter></PageFooter>
       </div>
 
-      <PageFooter></PageFooter>
+      
     </>
   );
 };

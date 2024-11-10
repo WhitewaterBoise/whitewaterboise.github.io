@@ -19,6 +19,7 @@ const Services = () => {
       {/* Hero Section */}
       <section className="services-hero">
         <div className="hero-content">
+          <br/>
           <h1>Our TMS Services</h1>
           <p>Helping you achieve mental wellness through cutting-edge treatments.</p>
         </div>
