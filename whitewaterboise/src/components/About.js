@@ -31,10 +31,10 @@ const About = () => {
           <div className="team-member">
             <img src="/images/dr-smith.jpg" alt="Dr. John Smith" className="team-member-photo" />
             <div className="team-member-info">
-              <h2>Dr. John Smith</h2>
+              <h2>Dr. Jacqueline Bell</h2>
               <h3>Lead Psychiatrist, MD</h3>
               <p>
-                Dr. John Smith is a board-certified psychiatrist with over 15 years of experience 
+                Dr. Jacqueline Bell is a board-certified psychiatrist with over 15 years of experience 
                 in treating mood disorders, anxiety, and depression. He specializes in using 
                 advanced therapies like Transcranial Magnetic Stimulation (TMS) for patients 
                 who have not found relief through traditional methods. His compassionate 
@@ -54,10 +54,10 @@ const About = () => {
           <div className="team-member">
             <img src="/images/dr-jones.jpg" alt="Dr. Sarah Jones" className="team-member-photo" />
             <div className="team-member-info">
-              <h2>Dr. Sarah Jones</h2>
+              <h2>Dr. Gayle Matsumuro</h2>
               <h3>Psychiatrist, DO</h3>
               <p>
-                Dr. Sarah Jones is a psychiatrist specializing in treating trauma and stress-related 
+                Dr. Gayle Matsumur is a psychiatrist specializing in treating trauma and stress-related 
                 disorders. She has extensive experience in working with individuals suffering 
                 from Post-Traumatic Stress Disorder (PTSD) and offers a range of therapeutic 
                 approaches including Cognitive Behavioral Therapy (CBT) and TMS. She believes 
