@@ -96,7 +96,7 @@ export default function Quiz() {
                     <br />
                     <div>
                         <div style={{ textAlign: "center", maxWidth: "500px", margin: "0 auto" }} >
-                            <h1 style={{ fontSize: "20px" }}><strong>Patient Health Self Accessment Questionnaire</strong></h1>
+                            <h1 style={{ fontSize: "20px" }}><strong>Patient Self Assessment </strong></h1>
                             <br></br>
 
 
