@@ -18,7 +18,7 @@ const faqData = [
     answer: "Yes, TMS is considered a very safe and effective treatment. NeuroStar TMS was FDA approved in 2008 for adults with Major Depressive Disorder (MDD) and has since then been approved for the adjunct treatment for Obsessive-Compulsive Disorder (OCD) and MDD with comorbid anxiety. NeuroStar TMS is also the first and only FDA approved TMS therapy for the adjunct treatment of MDD in adolescent patients (15-21)."
   },
   {
-    question: "Doese the treatment hurt?",
+    question: "Does the treatment hurt?",
     answer: "Most patients do not feel any pain during treatments. Patients may feel the magnet pulsing which is often described as a firm tapping sensation on the head or scalp. The most commonly reported side effect is mild pain or discomfort at or near the treatment site, usually only during the first week of treatment."
   },
   {

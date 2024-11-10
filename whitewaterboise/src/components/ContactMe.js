@@ -63,7 +63,7 @@ const ContactMe = () => {
                     <p>Sending your message...</p>
                   </div>
                 ) : (<></>)}
-                <form className="contact-form" action="https://formsubmit.co/whitewaterboise@gmail.com" method="POST">
+                <form className="contact-form" action="https://formsubmit.co/admin@whitewatertms.com" method="POST">
                   <div className="form-group">
                     <label htmlFor="name">Name:</label>
                     <input
