@@ -4,7 +4,7 @@ import './statics/About.css'; // Import CSS for styling
 import PageNavBar from './PageNavBar';
 import PageFooter from './PageFooter';
 import JMB from './statics/bell-jacqueline-hs.jpg';
-import GM from './statics/gayle.png'
+import GM from './statics/gayle.jpg'
 const About = () => {
   const navigate = useNavigate();
   const handleSelection = (path) => {
