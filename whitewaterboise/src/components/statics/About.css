@@ -60,27 +60,27 @@
 
   @media (max-width: 750px) {
     .team-section{
-      height:1800px;
+      height:2050px;
       min-height: unset;
     }
   }
   @media (max-width: 500px) {
     .team-section{
-      height:1950px;
+      height:2250px;
       min-height: unset;
     }
   }
 
   @media (max-width: 400px) {
     .team-section{
-      height:2000px;
+      height:2500px;
       min-height: unset;
     }
   }
 
   @media (max-width: 370px) {
     .team-section{
-      height:2500px;
+      height:2700px;
       min-height: unset;
     }
   }

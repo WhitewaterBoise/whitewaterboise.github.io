@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './statics/WhatIsTMS.css'; // Custom CSS for styling
+import MACHINE from './statics/machine.jpg'
 import { useNavigate} from 'react-router-dom';
 const WhatIsTMS = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -42,7 +43,10 @@ const WhatIsTMS = () => {
         uses magnetic fields to stimulate nerve cells in the brain to improve
         symptoms of depression. It is an effective treatment option for those
         who haven't found success with traditional treatments.
+        
       </p>
+      <img alt="TMS machine" src={MACHINE} style={{borderRadius: "25%"}}></img>
+      <br/>
       <a href="https://www.mayoclinic.org/tests-procedures/transcranial-magnetic-stimulation/about/pac-20384625"><button className="cta-button" > Learn more from Mayo Clinic </button></a>
       <br/>
       <button  onClick={() =>{ handleSelection("/quiz"); scrollToTop()}} className="cta-button">Depression Test</button>

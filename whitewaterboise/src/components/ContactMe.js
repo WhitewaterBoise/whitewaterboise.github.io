@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './statics/ContactMe.css'; // Importing the CSS file
+import ROOM from "./statics/office.jpg"
 import { ClipLoader } from 'react-spinners'; // Importing the spinner from react-spinners
 import PageNavBar from './PageNavBar';
 import PageFooter from './PageFooter';
@@ -31,6 +32,8 @@ const ContactMe = () => {
           <h2>Contact</h2>
           <p>Phone:<span style={{ marginLeft: "5px" }}>(208) 350-6690</span></p>
           <p>Fax:<span style={{ marginLeft: "5px" }}>(208) 350-6656</span></p>
+          <br></br>
+          <img src={ROOM} alt="office room" style={{width:"350px",height:"220px"}}></img>
         </div>
       </section>
       <section className="contact2-hero">
