@@ -14,7 +14,7 @@ const PrivacyPolicy = () => {
           1. Introduction
         </h2>
         <p className="text-gray-700">
-          Welcome to [Your Company Name]! We are committed to protecting your
+          Welcome to Whitewater Tms ! We are committed to protecting your
           privacy and ensuring that your personal information is handled in a
           safe and responsible manner.
         </p>
@@ -26,9 +26,9 @@ const PrivacyPolicy = () => {
         </h2>
         <p className="text-gray-700">
           We collect information directly from you when you use our services,
-          such as your name, email address, and payment information. We also
+          such as your name,and email. We do not
           collect information automatically through cookies and similar
-          tracking technologies to enhance your experience on our site.
+          tracking technologies.
         </p>
       </section>
 
@@ -39,7 +39,7 @@ const PrivacyPolicy = () => {
         <p className="text-gray-700">
           We use the information we collect to provide, maintain, and improve
           our services, communicate with you, and personalize your experience.
-          We may also use your information for analytics, marketing, and
+          We do not use your information for analytics, marketing, and
           compliance with legal obligations.
         </p>
       </section>
@@ -64,7 +64,7 @@ const PrivacyPolicy = () => {
           You have the right to access, update, or delete your personal
           information. You can also opt-out of receiving marketing
           communications. For requests or questions about your data, please
-          contact us at [Your Contact Email].
+          contact us at admin@whitewatertms.com .
         </p>
       </section>
 
@@ -85,7 +85,7 @@ const PrivacyPolicy = () => {
         </h2>
         <p className="text-gray-700">
           If you have any questions about this Privacy Policy, please contact us
-          at [Your Contact Email].
+          at admin@whitewatertms.com .
         </p>
       </section>
     </div>

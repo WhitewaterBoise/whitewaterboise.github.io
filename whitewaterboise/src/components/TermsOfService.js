@@ -14,7 +14,7 @@ const TermsOfService = () => {
           1. Introduction
         </h2>
         <p className="text-gray-700">
-          Welcome to [Your Company Name]! By accessing or using our website,
+          Welcome to Whitewater Tms ! By accessing or using our website,
           you agree to comply with and be bound by these Terms of Service. Please
           read them carefully.
         </p>
@@ -71,7 +71,7 @@ const TermsOfService = () => {
           6. Limitation of Liability
         </h2>
         <p className="text-gray-700">
-          To the fullest extent permitted by law, [Your Company Name] shall not
+          To the fullest extent permitted by law, Whitewater Tms shall not
           be liable for any indirect, incidental, or consequential damages,
           including, but not limited to, loss of profits, data, or other
           intangibles.
@@ -84,7 +84,7 @@ const TermsOfService = () => {
         </h2>
         <p className="text-gray-700">
           These Terms of Service are governed by and construed in accordance
-          with the laws of [Your Jurisdiction], without regard to its conflict
+          with the laws of Idaho, without regard to its conflict
           of law principles.
         </p>
       </section>
@@ -106,7 +106,7 @@ const TermsOfService = () => {
         </h2>
         <p className="text-gray-700">
           If you have any questions or concerns about these Terms of Service,
-          please contact us at [Your Contact Email].
+          please contact us at admin@whitewatertms.com .
         </p>
       </section>
     </div>

@@ -17,6 +17,7 @@ export default function Quiz() {
     const [QEight, setQEight] = useState(0);
     const [QNine, setQNine] = useState(0);
     const [QTen, setQTen] = useState(0);
+    const [QEleven , setQEleven] = useState(true);
     const [QOneResponse, setQOneResponse] = useState("Not at all");
     const [QTwoResponse, setQTwoResponse] = useState("Not at all");
     const [QThreeResponse, setQThreeResponse] = useState("Not at all");
@@ -42,7 +43,7 @@ export default function Quiz() {
         }
     };
 
-    
+
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -204,12 +205,12 @@ hurting yourself."
                                 <legend className="mb-4 text-lg">Would you be interested in learning about NeuroStar TMS, an FDA-cleared, non-drug treatment
                                     option that has been proven effective for people with depression?</legend>
                                 <div className="">
-                                    <Radio id="united-state" name="countries" value="USA" defaultChecked />
-                                    <Label htmlFor="united-state">Yes</Label>
+                                    <Radio id="yes" name="interest" value={true} defaultChecked ripple={true} onClick={()=> setQEleven(true)}/>
+                                    <Label htmlFor="yes">Yes</Label>
                                 </div>
                                 <div className="">
-                                    <Radio id="germany" name="countries" value="Germany" />
-                                    <Label htmlFor="germany">No</Label>
+                                    <Radio id="no" name="interest" value={false} ripple={true} onClick={()=> setQEleven(false)} />
+                                    <Label htmlFor="no">No</Label>
                                 </div>
 
                             </fieldset>
@@ -234,12 +235,12 @@ hurting yourself."
                         </div>
                         <br></br>
                         {loading ? (
-                  <div className="loading-screen">
-                    <ClipLoader color="#007BFF" size={50} />
-                    <p>Sending your message...</p>
-                  </div>
-                ) : (<></>)}
-                        <form className="contact-form" action="https://formsubmit.co/whitewaterboise@gmail.com" method="POST">
+                            <div className="loading-screen">
+                                <ClipLoader color="#007BFF" size={50} />
+                                <p>Sending your message...</p>
+                            </div>
+                        ) : (<></>)}
+                        <form className="contact-form" action="https://formsubmit.co/admin@whitewatertms.com" method="POST">
                             <div className="form-group">
                                 <label htmlFor="name">Name:</label>
                                 <input
@@ -257,7 +258,7 @@ hurting yourself."
                                     type="phone"
                                     id="phone"
                                     name="phone"
-                                    value={formData.email}
+                                    value={formData.phone}
                                     onChange={handleChange}
                                     required
                                 />
@@ -279,18 +280,28 @@ hurting yourself."
                                 <textarea
                                     id="message"
                                     name="message"
-                                    value={formData.message}
+                                    value={`1. Little interest or pleasure in doing things.\t score: ${QOne}\n 
+                                    2. Feeling down, depressed, or hopeless. \t ${QTwo} \n
+                                    3. Trouble falling or staying asleep, or sleeping too much.\t ${QThree} \n
+                                    4. Feeling tired or having little energy.\t ${QFour} \n
+                                    5. Poor appetite or overeating.\t ${QFive} \n
+                                    6. Feeling bad about yourself – or that you are a failure or have let yourself or your family down.\t ${QSix} \n
+                                    7. Trouble concentrating on things, such as reading the newspaper or watching television.\t ${QSeven} \n
+                                    8. Moving or speaking so slowly that other people could notice. Or the opposite – being so figety or restless that you have been moving around a lot more than usual.\t ${QEight} \n
+                                    9. Thoughts that you would be better off dead, or of hurting yourself.\t ${QNine} \n
+                                    10. If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?\t ${QTen} \n
+                                    Would you be interested in learning about NeuroStar TMS?   \t ${QEleven}
+                                    `}
                                     onChange={handleChange}
-                                    required
+                                    requireds
                                 ></textarea>
                             </div>
                             {/* <input type="hidden" name="_captcha" value="false" /> */}
-
                             <input type="text" name="_honey" style={{ display: 'none' }}></input>
-                            <input type="hidden" name="_url" value="https:/whitewatertms.com/contact.html"></input>
+                            <input type="hidden" name="_url" value="https://whitewatertms.com/quiz.html"></input>
                             <input type="hidden" name="_next" value="https://whitewatertms.com" />
                             <div onClick={() => setLoading(true)}> <button className="submit-btn" type="submit" >Send</button></div>
-                            <div > <button className="submit-btn" type="submit">Send</button></div>
+
                             <div className='flex'>
                                 <span> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"
                                     style={{ fill: "#228BE6", width: "19px", height: "19px" }}>
