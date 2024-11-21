@@ -51,7 +51,7 @@ const ContactMe = () => {
       <section className="contact3-hero">
         <div className="contact3-content">
           <h2>Parking Instruction</h2>
-          <p>You can choose to either park on W Jordan St. or in the overflow parking lots that next the alley behind the house.</p>
+          <p>Parking is located in the alley behind the house.</p>
 
         </div>
       </section>
