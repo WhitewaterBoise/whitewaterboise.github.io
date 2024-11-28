@@ -14,7 +14,7 @@ const TermsOfService = () => {
           1. Introduction
         </h2>
         <p className="text-gray-700">
-          Welcome to Whitewater Tms ! By accessing or using our website,
+          Welcome to Whitewater TMS ! By accessing or using our website,
           you agree to comply with and be bound by these Terms of Service. Please
           read them carefully.
         </p>
@@ -44,18 +44,7 @@ const TermsOfService = () => {
 
       <section>
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-          4. Account Termination
-        </h2>
-        <p className="text-gray-700">
-          We reserve the right to suspend or terminate your account and access
-          to our services at any time, for any reason, without notice or
-          liability.
-        </p>
-      </section>
-
-      <section>
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-          5. Disclaimers
+          4. Disclaimers
         </h2>
         <p className="text-gray-700">
           Our services are provided "as is" and "as available" without any
@@ -68,7 +57,7 @@ const TermsOfService = () => {
 
       <section>
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-          6. Limitation of Liability
+          5. Limitation of Liability
         </h2>
         <p className="text-gray-700">
           To the fullest extent permitted by law, Whitewater Tms shall not
@@ -80,7 +69,7 @@ const TermsOfService = () => {
 
       <section>
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-          7. Governing Law
+          6. Governing Law
         </h2>
         <p className="text-gray-700">
           These Terms of Service are governed by and construed in accordance
@@ -91,7 +80,7 @@ const TermsOfService = () => {
 
       <section>
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-          8. Changes to Terms
+          7. Changes to Terms
         </h2>
         <p className="text-gray-700">
           We reserve the right to modify or replace these Terms of Service at
@@ -102,7 +91,7 @@ const TermsOfService = () => {
 
       <section>
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-          9. Contact Us
+          8. Contact Us
         </h2>
         <p className="text-gray-700">
           If you have any questions or concerns about these Terms of Service,
