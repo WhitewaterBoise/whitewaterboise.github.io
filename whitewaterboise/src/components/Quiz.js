@@ -280,17 +280,18 @@ hurting yourself."
                                 <textarea
                                     id="message"
                                     name="message"
-                                    value={`1. Little interest or pleasure in doing things.\t score: ${QOne}\n 
-                                    2. Feeling down, depressed, or hopeless. \t ${QTwo} \n
-                                    3. Trouble falling or staying asleep, or sleeping too much.\t ${QThree} \n
-                                    4. Feeling tired or having little energy.\t ${QFour} \n
-                                    5. Poor appetite or overeating.\t ${QFive} \n
-                                    6. Feeling bad about yourself – or that you are a failure or have let yourself or your family down.\t ${QSix} \n
-                                    7. Trouble concentrating on things, such as reading the newspaper or watching television.\t ${QSeven} \n
-                                    8. Moving or speaking so slowly that other people could notice. Or the opposite – being so figety or restless that you have been moving around a lot more than usual.\t ${QEight} \n
-                                    9. Thoughts that you would be better off dead, or of hurting yourself.\t ${QNine} \n
-                                    10. If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?\t ${QTen} \n
-                                    Would you be interested in learning about NeuroStar TMS?   \t ${QEleven}
+                                    value={`1. Little interest or pleasure in doing things.\t score: ${QOne/STEP}\n 
+                                    2. Feeling down, depressed, or hopeless. \t ${QTwo/STEP} \n
+                                    3. Trouble falling or staying asleep, or sleeping too much.\t ${QThree/STEP} \n
+                                    4. Feeling tired or having little energy.\t ${QFour/STEP} \n
+                                    5. Poor appetite or overeating.\t ${QFive/STEP} \n
+                                    6. Feeling bad about yourself – or that you are a failure or have let yourself or your family down.\t ${QSix/STEP} \n
+                                    7. Trouble concentrating on things, such as reading the newspaper or watching television.\t ${QSeven/STEP} \n
+                                    8. Moving or speaking so slowly that other people could notice. Or the opposite – being so figety or restless that you have been moving around a lot more than usual.\t ${QEight/STEP} \n
+                                    9. Thoughts that you would be better off dead, or of hurting yourself.\t ${QNine/STEP} \n
+                                    10. If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?\t ${QTen/STEP} \n
+                                    Would you be interested in learning about NeuroStar TMS?   \t ${QEleven} \n
+                                    Total score: ${score} \n
                                     `}
                                     onChange={handleChange}
                                     requireds
