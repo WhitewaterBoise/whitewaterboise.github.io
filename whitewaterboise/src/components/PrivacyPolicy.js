@@ -14,7 +14,7 @@ const PrivacyPolicy = () => {
           1. Introduction
         </h2>
         <p className="text-gray-700">
-          Welcome to Whitewater Tms ! We are committed to protecting your
+          Welcome to Whitewater TMS ! We are committed to protecting your
           privacy and ensuring that your personal information is handled in a
           safe and responsible manner.
         </p>
