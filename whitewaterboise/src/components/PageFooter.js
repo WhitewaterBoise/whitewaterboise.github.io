@@ -3,12 +3,6 @@ import "./statics/footer.css"
 import { Footer } from 'flowbite-react';
 import logo from "./logo192.png"
 const PageFooter = () => {
-    const gridContainerStyle = {
-        display: 'flex',
-        flexWrap: 'wrap',
-        justifyContent: "justifyContent",
-        gap: 'auto', // Adjust the gap between items as needed
-      };
     return (
         <>
         
