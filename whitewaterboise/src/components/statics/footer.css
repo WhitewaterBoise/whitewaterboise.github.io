@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+    .contact-info-bar {
+      flex-direction: row !important;
+      text-align: left !important;
+      justify-content: space-between !important;
+    }
+  
+    .contact-info-bar > div:first-child {
+      margin-bottom: 0 !important;
+      margin-right: 20px;
+    }
+  
+    .contact-info-bar ul {
+      flex-direction: row !important;
+      margin-top: 0 !important;
+    }
+  
+    .contact-info-bar ul li {
+      flex-direction: row !important;
+      width: auto !important;
+      margin-bottom: 0 !important;
+      margin-right: 30px;
+      justify-content: flex-start !important;
+    }
+  
+    .contact-info-bar ul li:last-child {
+      margin-right: 0;
+    }
+  }

@@ -1,5 +1,8 @@
 
 ### `npm start`
+Primary: #243b61
+Secondary: #9cddec 
 
-Primary color:
-Seconary color: 
+Background page color: 
+Text color: 
+

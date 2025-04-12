@@ -4,7 +4,7 @@
     transform: translateY(50px);
     transition: opacity 1s ease-out, transform 1s ease-out;
     padding: 100px 20px;
-    background-color: #f5d7d7; /* Soft background for contrast */
+    background-color: #9cddec45; /* Soft background for contrast */
     color: #333; /* Dark text for better readability */
     text-align: center;
     min-height: 100vh;
@@ -27,9 +27,8 @@
     font-weight: 600;
     background: linear-gradient(
       to right,
-      rgba(156, 49, 228, 0.753),
-      rgb(211, 74, 177),
-      rgb(199, 35, 90)
+      #75a6b1 ,
+      #243b61
     );
     -webkit-background-clip: text;
     color: transparent;
@@ -43,7 +42,7 @@
     content: '';
     width: 80px;
     height: 4px;
-    background-color: #c458dfc2;
+    background-color: #243b61;
     position: absolute;
     bottom: -10px;
     left: 50%;

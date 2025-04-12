@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import PageFooter from "./PageFooter";
 import PageNavBar from "./PageNavBar";
+import InsuranceAccepted from "./InsuranceAccepted";
 import './statics/Faq.css';
 // Sample FAQ Data
 const faqData = [
@@ -65,6 +66,8 @@ const FaqItem = ({ question, answer }) => {
         <FaqItem key={index} question={faq.question} answer={faq.answer} />
       ))}
     </div>
+
+<InsuranceAccepted></InsuranceAccepted>
     <PageFooter></PageFooter></>
   );
 };

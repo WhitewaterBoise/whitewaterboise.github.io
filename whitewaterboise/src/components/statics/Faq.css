@@ -1,5 +1,5 @@
 .faq-hero {
-    background-color: rgb(220, 241, 218);
+    background-color: #9cddec ;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -14,9 +14,7 @@
     font-weight: bold;
     background: linear-gradient(
       to right,
-      rgba(102, 148, 216, 0.753),
-      rgb(74, 211, 126),
-      rgb(199, 196, 35)
+      #243b61
     );
     -webkit-background-clip: text;
     color: transparent;

@@ -1,11 +1,11 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './statics/About.css'; // Import CSS for styling
+import './statics/OurTeam.css'; // Import CSS for styling
 import PageNavBar from './PageNavBar';
 import PageFooter from './PageFooter';
 import JMB from './statics/bell-jacqueline-hs.jpg';
 import GM from './statics/gayle.jpg'
-const About = () => {
+const OurTeam = () => {
   const navigate = useNavigate();
   const handleSelection = (path) => {
     navigate(path);
@@ -93,4 +93,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default OurTeam;

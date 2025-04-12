@@ -1,11 +1,14 @@
 import { Navbar } from "flowbite-react";
 import logo from "./logo192.png"
+import neurostar from "./statics/neurostar.png"
 export default function PageNavBar() {
   return (
-    <Navbar fluid rounded style={{ borderWidth:"0 0 2px 0",borderImage: 'linear-gradient(to right,  #50eb7c, #ebbd50, #f52f7b) 2 '}}>
-<Navbar.Brand href="/">
-        <img src={logo} className="mr-3 h-9 sm:h-9" alt="Whitewater TMS logo" />
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Whitewater TMS</span>
+    <Navbar fluid rounded style={{ borderWidth: "0 0 2px 0", borderImage: 'linear-gradient(to right,  #243b61,  #9cddec ) 2 ' }}>
+      <Navbar.Brand href="/" >
+        <img src={logo} className="mr-1 sm:mr-3 h-9" alt="Whitewater TMS logo" />
+
+        <span className=" self-center whitespace-nowrap text-xl font-semibold dark:text-white " style={{ fontFamily: "Poiret One", letterSpacing: -1 }}>WHITEWATER TMS</span>
+        <img src={neurostar} className="ml-2 h-6 sm:ml-5 " alt="Neurostar logo" />
       </Navbar.Brand>
       <div className="flex md:order-2">
         <Navbar.Toggle />
@@ -14,13 +17,10 @@ export default function PageNavBar() {
         <Navbar.Link href="/" active>
           Home
         </Navbar.Link>
-        <Navbar.Link href="about">About</Navbar.Link>
-        <Navbar.Link href="services">Services</Navbar.Link>
-
-        <Navbar.Link href="contact">Contact</Navbar.Link>
-        <Navbar.Link href="faq">FAQ</Navbar.Link>
-        <Navbar.Link href="forms">Forms</Navbar.Link>
-        <Navbar.Link href="https://neurostar.com/">NeuroStar</Navbar.Link>
+        <Navbar.Link style={{marginTop:"-8px"}} href="ourteam">Our Team</Navbar.Link>
+        <Navbar.Link  style={{marginTop:"-8px"}} href="contact">Contact</Navbar.Link>
+        <Navbar.Link style={{marginTop:"-8px"}} href="faq">FAQ</Navbar.Link>
+        <Navbar.Link style={{marginTop:"-8px"}} href="https://neurostar.com/">NeuroStar</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );

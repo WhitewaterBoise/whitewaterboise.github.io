@@ -1,6 +1,6 @@
 /* Hero Section */
 .contact1-hero {
-  background-color:#f0f3f5;
+  background-color:hsla(191, 68%, 77%, 0.43) ;
   height: 375px;
   display: flex;
   justify-content: center;
@@ -16,9 +16,7 @@
   font-weight: bold;
   background: linear-gradient(
     to right,
-    rgba(204, 98, 98, 0.863),
-    rgb(211, 124, 74),
-    rgb(187, 164, 102)
+    #243b61
   );
   -webkit-background-clip: text;
   color: transparent;
@@ -30,7 +28,7 @@
 }
 
 .contact2-hero {
-  background-color: #f0f5f0;
+  background-color:hsla(191, 68%, 77%, 0.43) ;
   height: 550px;
   display: flex;
   justify-content: center;
@@ -45,9 +43,7 @@
   font-weight: bold;
   background: linear-gradient(
     to right,
-    rgba(204, 98, 98, 0.863),
-    rgb(211, 124, 74),
-    rgb(187, 164, 102)
+    #243b61
   );
   -webkit-background-clip: text;
   color: transparent;
@@ -60,7 +56,7 @@
 
 
 .contact3-hero {
-  background-color: rgba(140, 150, 135, 0.116);
+  background-color: hsla(191, 68%, 77%, 0.43);
   height: 200px;
   display: flex;
   justify-content: center;
@@ -75,9 +71,7 @@
   font-weight: bold;
   background: linear-gradient(
     to right,
-    rgba(204, 98, 98, 0.863),
-    rgb(211, 124, 74),
-    rgb(187, 164, 102)
+    #243b61
   );
   -webkit-background-clip: text;
   color: transparent;
@@ -90,18 +84,20 @@
 }
 
 .contact4-hero {
-  background-color: rgba(196, 148, 60, 0.856);
-  height: 900px;
+  background-color:#73a8b4e2  ;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   text-align: center;
+  border-radius: 10%;
 }
 
 .contact4-hero .contact4-content h2 {
   font-size: 35px;
   margin-bottom: 20px;
+  
 }
 
 
@@ -163,7 +159,7 @@
   padding: 12px 20px;
   font-size: 16px;
   color: white;
-  background-color: #ca2649d0;
+  background-color: #243b61;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -171,7 +167,7 @@
 }
 
 .submit-btn:hover {
-  background-color: #b3a100;
+  background-color: #4169a9;
 }
 
 /* Loading Screen Styling */
@@ -191,7 +187,9 @@
   .contact-container {
     padding: 15px;
   }
-
+  .contact4-hero {
+    border-radius: 1%;
+  }
   .submit-btn {
     font-size: 14px;
   }

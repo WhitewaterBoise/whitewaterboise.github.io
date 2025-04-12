@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import './statics/WhatIsTMS.css'; // Custom CSS for styling
 import MACHINE from './statics/machine.jpg'
-import { useNavigate} from 'react-router-dom';
+// import { useNavigate} from 'react-router-dom';
+
 const WhatIsTMS = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleSelection = (path) => {
-    navigate(path);
-  };
+  // const handleSelection = (path) => {
+  //   navigate(path);
+  // };
 
 
   // Scroll-triggered visibility
@@ -28,9 +29,9 @@ const WhatIsTMS = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
+  // function scrollToTop() {
+  //   window.scrollTo({ top: 0, behavior: 'smooth' });
+  // }
 
   return (
     <div
@@ -45,11 +46,11 @@ const WhatIsTMS = () => {
         who haven't found success with traditional treatments.
         
       </p>
-      <img alt="TMS machine" src={MACHINE} style={{borderRadius: "25%"}}></img>
+      <img alt="TMS machine" src={MACHINE} style={{borderRadius: "25%",filter: "brightness(1.1) contrast(0.7) saturate(0.78) "}}></img>
       <br/>
-      <a href="https://www.mayoclinic.org/tests-procedures/transcranial-magnetic-stimulation/about/pac-20384625"><button className="cta-button" > Learn more from Mayo Clinic </button></a>
-      <br/>
-      <button  onClick={() =>{ handleSelection("/quiz"); scrollToTop()}} className="cta-button">Depression Test</button>
+      <a href="https://www.mayoclinic.org/tests-procedures/transcranial-magnetic-stimulation/about/pac-20384625"><button className="cta-button" > Place Holder </button></a>
+      
+      
       
     </div>
   );
