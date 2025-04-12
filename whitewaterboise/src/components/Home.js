@@ -42,11 +42,11 @@ const Home = () => {
                         <div className="scroll-down" onClick={scrollToTMSSection} style={{zIndex:0}}>
                             <span style={{ fontSize: "40px", color:"#0b3761ff"}}>&#x25BC;</span> {/* Unicode for a down arrow */}
                         </div>
-                        <div className="flex justify-center md:justify-start space-x-4 pt-4">
+                        {/* <div className="flex justify-center md:justify-start space-x-4 pt-4">
                             <a href="#" className="text-black"><i className="fab fa-facebook-f"></i></a>
                             <a href="#" className="text-black"><i className="fab fa-twitter"></i></a>
                             <a href="#" className="text-black"><i className="fas fa-share-alt"></i></a>
-                        </div>
+                        </div> */}
                     </div>
 
                     {/* Image Section */}
