@@ -78,9 +78,9 @@ const OurTeam = () => {
         {/* Call to Action Section */}
         <section className="cta-section">
           <div className="cta-content">
-            <h2>Ready to Begin Your Journey to Mental Wellness?</h2>
+            <h2 style={{color:"#ffffffff"}}>Ready to Begin Your Journey to Mental Wellness?</h2>
             <br />
-            <p>Our experienced team is here to guide you through your mental health journey. Schedule a consultation today.</p>
+            <p style={{color:"#ffffffff"}}>Our experienced team is here to guide you through your mental health journey. Schedule a consultation today.</p>
             <br />
             <button onClick={() => { handleSelection("/contact"); scrollToBottom() }} className="cta-button">Schedule a Consultation</button>
           </div>

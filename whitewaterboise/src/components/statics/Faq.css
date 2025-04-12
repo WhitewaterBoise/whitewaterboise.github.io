@@ -1,20 +1,21 @@
 .faq-hero {
-    background-color: #9cddec ;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
+  background-color: #093d4817 ;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
   }
   
   .faq-hero .faq-content h1 {
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 20px;
     font-weight: bold;
     background: linear-gradient(
       to right,
-      #243b61
+      #37b3cf ,
+      #074cbb
     );
     -webkit-background-clip: text;
     color: transparent;

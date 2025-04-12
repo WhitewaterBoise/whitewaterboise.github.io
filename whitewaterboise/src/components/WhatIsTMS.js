@@ -36,22 +36,32 @@ const WhatIsTMS = () => {
   return (
     <div
       id="tms-section"
-      className={`tms-container ${isVisible ? 'fade-in' : ''}`}
+      className={`tms-container ${isVisible ? 'fade-in' : ''} `}
     >
-      <h2>What is TMS?</h2>
-      <p>
-        Transcranial Magnetic Stimulation (TMS) is a non-invasive procedure that
-        uses magnetic fields to stimulate nerve cells in the brain to improve
-        symptoms of depression. It is an effective treatment option for those
-        who haven't found success with traditional treatments.
-        
-      </p>
-      <img alt="TMS machine" src={MACHINE} style={{borderRadius: "25%",filter: "brightness(1.1) contrast(0.7) saturate(0.78) "}}></img>
-      <br/>
-      <a href="https://www.mayoclinic.org/tests-procedures/transcranial-magnetic-stimulation/about/pac-20384625"><button className="cta-button" > Place Holder </button></a>
-      
-      
-      
+      <div className='px-6 md:px-12 py-12  flex flex-col md:flex-row items-center justify-between relative overflow-hidden'>
+       
+        <div className='w-full md:w-1/2 mr-5'>
+        <img alt="TMS machine" src={MACHINE} style={{ borderRadius: "5%", filter: "brightness(1.1) contrast(0.7) saturate(0.78) " }}></img>
+        <br />
+        </div> 
+        <div className='w-full md:w-1/2'>
+          <h2>What is TMS?</h2>
+          <p>
+            Transcranial Magnetic Stimulation (TMS) is a non-invasive procedure that
+            uses magnetic fields to stimulate nerve cells in the brain to improve
+            symptoms of depression. It is an effective treatment option for those
+            who haven't found success with traditional treatments.
+
+          </p>
+          <a href="https://phq9web.azurewebsites.net/PHQ9/Survey/89006"><button className="cta-button" > Patient Health Questionnaire</button></a>
+        </div>
+
+
+      </div>
+
+
+
+
     </div>
   );
 };

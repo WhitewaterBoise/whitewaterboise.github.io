@@ -1,6 +1,6 @@
 /* Hero Section */
 .about-hero {
-    background-color: #093d480f ;
+    background-color: #093d4817 ;
     height: 220px;
     display: flex;
     justify-content: center;
@@ -15,8 +15,8 @@
     font-weight: bold;
     background: linear-gradient(
       to right,
-      #75a6b1 ,
-      #243b61
+      #37b3cf ,
+      #074cbb
     );
     -webkit-background-clip: text;
     color: transparent;
@@ -27,8 +27,8 @@
     font-size: 20px;
     background: linear-gradient(
       to right,
-      #75a6b1  ,
-      #243b61
+      #37b3cf ,
+      #074cbb
     );
     -webkit-background-clip: text;
     color: transparent;
@@ -107,7 +107,7 @@
   
   .team-member-info h2 {
     font-size: 28px;
-    background: #243b61;
+    background: #074cbb;
     -webkit-background-clip: text;
     color: transparent;
     display: inline-block;
@@ -146,7 +146,7 @@
   
   .team-member-info ul li::before {
     content: '•';
-    color: #243b61;
+    color: #074cbb;
     font-size: 24px;
     position: absolute;
     left: -20px;
@@ -157,30 +157,21 @@
   .cta-section {
     margin-top: auto;
     padding: 80px 20px;
-    background-color: #9cddec70 ;
-    color: white;
+    background-color: #074cbb9a;
     text-align: center;
   }
   
   .cta-content h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    background: linear-gradient(
-      to right,
-      #243b61
-    );
     -webkit-background-clip: text;
-    color: transparent;
     display: inline-block;
+    z-index: 1;
   }
   
   .cta-content p {
     font-size: 18px;
     margin-bottom: 40px;
-    background: linear-gradient(
-      to right,
-      #243b61
-    );
     -webkit-background-clip: text;
     color: transparent;
     display: inline-block;

@@ -1,11 +1,10 @@
 /* Hero Section */
 .contact1-hero {
-  background-color:hsla(191, 68%, 77%, 0.43) ;
-  height: 375px;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgba(65, 61, 61, 0.61);
+  color: rgba(65, 61, 61, 0.938);
   text-align: center;
   font-weight: bold;
 }
@@ -28,12 +27,10 @@
 }
 
 .contact2-hero {
-  background-color:hsla(191, 68%, 77%, 0.43) ;
-  height: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color:rgba(65, 61, 61, 0.61);
+  color:rgba(65, 61, 61, 0.938);
   text-align: center;
 }
 
@@ -56,12 +53,12 @@
 
 
 .contact3-hero {
-  background-color: hsla(191, 68%, 77%, 0.43);
+  background-color: #093d4817 ;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color:rgba(65, 61, 61, 0.61);
+  color:rgba(65, 61, 61, 0.938);
   text-align: center;
 }
 
@@ -84,14 +81,14 @@
 }
 
 .contact4-hero {
-  background-color:#73a8b4e2  ;
+  background-color:#79b4ebe2  ;
   height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   text-align: center;
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 .contact4-hero .contact4-content h2 {
@@ -145,7 +142,7 @@
 }
 
 .form-group input:focus, .form-group textarea:focus {
-  border-color: #ffc400;
+  border-color: #0400ff;
   outline: none;
 }
 
@@ -159,7 +156,7 @@
   padding: 12px 20px;
   font-size: 16px;
   color: white;
-  background-color: #243b61;
+  background-color: #1866e2;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -167,7 +164,7 @@
 }
 
 .submit-btn:hover {
-  background-color: #4169a9;
+  background-color: #115bd1;
 }
 
 /* Loading Screen Styling */

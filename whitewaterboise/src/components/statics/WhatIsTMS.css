@@ -4,7 +4,7 @@
     transform: translateY(50px);
     transition: opacity 1s ease-out, transform 1s ease-out;
     padding: 100px 20px;
-    background-color: #9cddec45; /* Soft background for contrast */
+    background-color: #65a7dd45; /* Soft background for contrast */
     color: #333; /* Dark text for better readability */
     text-align: center;
     min-height: 100vh;
@@ -27,8 +27,8 @@
     font-weight: 600;
     background: linear-gradient(
       to right,
-      #75a6b1 ,
-      #243b61
+      #37b3cf ,
+      #074cbb
     );
     -webkit-background-clip: text;
     color: transparent;

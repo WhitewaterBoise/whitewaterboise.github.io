@@ -48,7 +48,7 @@ const ContactForm = () =>{
                   <div className="form-group">
                     <label htmlFor="phone">Phone:</label>
                     <input
-                      type="phone"
+                      type="text"
                       id="phone"
                       className='mx-4'
                       name="phone"
