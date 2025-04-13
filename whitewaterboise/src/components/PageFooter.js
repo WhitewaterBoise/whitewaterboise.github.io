@@ -14,15 +14,15 @@ const PageFooter = () => {
         </div>
         <ul className='ml-0 mt-0 items-center justify-center flex flex-column' style={{ margin: 0, padding: 0, listStyle: "none" }}>
           <li style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "100%", marginBottom: "10px" }}>
-            <img data-at="image" alt="address" src="//v.fastcdn.co/u/89b2219b/62086539-0-bx-map-pin.png" data-src="//v.fastcdn.co/u/89b2219b/62086539-0-bx-map-pin.png" data-retina-src="//v.fastcdn.co/u/89b2219b/62086539-0-bx-map-pin.png" srcset="//v.fastcdn.co/u/89b2219b/62086539-0-bx-map-pin.png 2x" style={{ marginRight: "5px", height: "20px" }} />
+            <img data-at="image" alt="address" src="//v.fastcdn.co/u/89b2219b/62086539-0-bx-map-pin.png" data-src="//v.fastcdn.co/u/89b2219b/62086539-0-bx-map-pin.png" data-retina-src="//v.fastcdn.co/u/89b2219b/62086539-0-bx-map-pin.png" srcSet="//v.fastcdn.co/u/89b2219b/62086539-0-bx-map-pin.png 2x" style={{ marginRight: "5px", height: "20px" }} />
             <span>908 N Whitewater Park Blvd, Boise, ID 83703</span>
           </li>
           <li style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "100%", marginBottom: "10px" }}>
-            <img data-at="image" alt="phone number" src="//v.fastcdn.co/u/89b2219b/62104854-0-Group.png" data-src="//v.fastcdn.co/u/89b2219b/62104854-0-Group.png" data-retina-src="//v.fastcdn.co/u/89b2219b/62104854-0-Group.png" srcset="//v.fastcdn.co/u/89b2219b/62104854-0-Group.png 2x" style={{ marginRight: "5px", height: "20px" }} />
+            <img data-at="image" alt="phone number" src="//v.fastcdn.co/u/89b2219b/62104854-0-Group.png" data-src="//v.fastcdn.co/u/89b2219b/62104854-0-Group.png" data-retina-src="//v.fastcdn.co/u/89b2219b/62104854-0-Group.png" srcSet="//v.fastcdn.co/u/89b2219b/62104854-0-Group.png 2x" style={{ marginRight: "5px", height: "20px" }} />
             <span>(208) 350-6690</span>
           </li>
           <li  style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "100%" }}>
-            <img  data-at="image" alt="" src="//v.fastcdn.co/u/89b2219b/62104846-0-Vector.png" data-src="//v.fastcdn.co/u/89b2219b/62104846-0-Vector.png" data-retina-src="//v.fastcdn.co/u/89b2219b/62104846-0-Vector.png" srcset="//v.fastcdn.co/u/89b2219b/62104846-0-Vector.png 2x" style={{ marginRight: "5px", height: "20px" }} />
+            <img  data-at="image" alt="" src="//v.fastcdn.co/u/89b2219b/62104846-0-Vector.png" data-src="//v.fastcdn.co/u/89b2219b/62104846-0-Vector.png" data-retina-src="//v.fastcdn.co/u/89b2219b/62104846-0-Vector.png" srcSet="//v.fastcdn.co/u/89b2219b/62104846-0-Vector.png 2x" style={{ marginRight: "5px", height: "20px" }} />
             <span> info@whitewatertms.com</span>
           </li>
         </ul>
