@@ -32,10 +32,10 @@ const InsuranceAccepted = () => {
                 <div className='w-30 mr-5 mt-3' >
                     <img className="item-content-box item-block image " data-at="image" alt="" src={select_health} />
                 </div>
-                <div className='w-30 mr-5 mt-3' >
+                <div className='w-30 mr-5 ' >
                     <img className="item-content-box item-block image " data-at="image" alt="" src={tricare} />
                 </div>
-                <div className='w-sm w-20 mt-3'>
+                <div className='w-sm w-20 '>
                     <img className="item-content-box item-block image " data-at="image" alt="" src="//v.fastcdn.co/u/89b2219b/61810211-0-Cigna-logo.svg.png" srcSet="//v.fastcdn.co/u/89b2219b/61810211-0-Cigna-logo.svg.png 2x"></img>
                 </div>
 
