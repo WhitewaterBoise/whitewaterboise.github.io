@@ -39,7 +39,7 @@ const WhatIsTMS = () => {
       className={`tms-container ${isVisible ? 'fade-in' : ''} `}
     >
 <div className="px-6 md:px-12 py-12 flex flex-col md:flex-row items-center md:justify-between relative overflow-hidden">
-<div className="w-max item-center md:w-1/2 mr-0 md:mr-5 mx-auto ">
+<div className="w-auto item-center md:w-1/2 md:mr-5 mx-auto ">
         <img alt="TMS machine" src={MACHINE} style={{ borderRadius: "5%", filter: "brightness(1.1) contrast(0.7) saturate(0.78) " }}></img>
         <br />
         </div> 
