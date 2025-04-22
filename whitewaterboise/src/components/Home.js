@@ -36,9 +36,9 @@ const Home = () => {
                         <p className="text-gray-600 mb-3">
                             Discover a new way to rid your life of depression.
                         </p>
-                        <button onClick={() => handleSelection("/contact")} style={{ zIndex: 99 }} className=" text-black font-semibold px-6 py-3 rounded gs-button">
+                        {/* <button onClick={() => handleSelection("/contact")} style={{ zIndex: 99 }} className=" text-black font-semibold px-6 py-3 rounded gs-button">
                             Get Started
-                        </button>
+                        </button> */}
                         <div className="scroll-down" onClick={scrollToTMSSection} style={{ zIndex: 0 }}>
                             <span style={{ fontSize: "40px", color: "#0b3761ff" }}>&#x25BC;</span> {/* Unicode for a down arrow */}
                         </div>

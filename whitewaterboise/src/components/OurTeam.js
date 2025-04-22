@@ -34,12 +34,12 @@ const OurTeam = () => {
             <div className="team-member">
               <img src= {JMB} alt="Jacqueline M. Bell, DO" className="team-member-photo" />
               <div className="team-member-info">
-                <h2>Dr. Jacqueline Bell</h2>
+                <h2>Jacqueline Bell, DO</h2>
                 <h3>Doctor of Osteopathic Medicine</h3>
                 <p>
                   Jacqueline Bell specializes in addressing the full range of emotional and behavioral difficulties affecting children and adolescents using evidence-based medicine. She has experience working with youths affected by a wide range of behavioral and emotional disturbances like anxiety, depression, aggression, autism, and trauma. She firmly believes in holistic care that encompasses patient and family dynamics while striving to only use medication when absolutely necessary at the lowest effective dose.
                   <br />
-                  Dr. Bell is board certified in general psychiatry and child and adolescent psychiatry. She is a member of the American Psychiatric Association and American Osteopathic Association. During her fellowship training with UT Southwestern at Dallas Children's Medical Center, she served as co-chief resident.
+                  Dr. Bell is board certified in general psychiatry and child and adolescent psychiatry. She is a member of the American Psychiatric Association and American Osteopathic Association. During her fellowship training with UT Southwestern at Dallas Children's Medical Center, she served as co-chief resident. 
                   <br />
                   In her free time Dr. Bell enjoys snowboarding, traveling, and spending time with her family.
                 </p>

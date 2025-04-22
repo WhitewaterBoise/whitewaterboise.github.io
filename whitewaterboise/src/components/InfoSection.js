@@ -15,7 +15,7 @@ const InfoSection = () => {
         <div>
           <h3 className="text-xl font-bold">Non Invasive Procedure</h3>
           <p className="text-gray-700 mt-1 text-lg">
-          The NeuroStar Advanced Therapy TMS device is a completely painless and non-surgical procedure. No anesthesia is required.
+          The NeuroStar Advanced Therapy TMS device is a non-drug and non-surgical procedure. No anesthesia is required.
           </p>
         </div>
       </div>
@@ -30,9 +30,9 @@ const InfoSection = () => {
           />
         </div>
         <div>
-          <h3 className="text-xl font-bold">No Negative Side Effects</h3>
+          <h3 className="text-xl font-bold">Minimal Side Effects</h3>
           <p className="text-gray-700 mt-1 text-lg">
-          After your session is over, you can confidently return to any regularly scheduled activities such as work or school. Your sleep will not be affected at all either.
+          Most patients have mild or no side effects, and can continue their daily lives while undergoing TMS therapy. 
           </p>
         </div>
       </div>
@@ -49,7 +49,7 @@ const InfoSection = () => {
         <div>
           <h3 className="text-xl font-bold">Covered By Insurance</h3>
           <p className="text-gray-700 mt-1 text-lg">
-          Most insurance companies will help cover the cost of your NeuroStar Advanced Therapy TMS consultation. Find out more by contacting us today.
+          Most insurance companies will help cover the cost of your TMS therapy. Find out more by contacting us today.
           </p>
         </div>
       </div>
