@@ -72,7 +72,8 @@ const Home = () => {
                         <div className='w-auto item-center md:w-1/2 md:mr-5 mx-auto '>
                             <InfoSection></InfoSection>
                         </div>
-                        <div className='w-auto item-center md:w-1/2 md:mr-5 mx-auto mt-3 mb-3   'style={{transform: "scale(0.7)"}} >
+                        <div className='w-auto item-center md:w-1/2 md:mr-5 mx-auto mt-3 mb-3   '
+                        style={{transform: "scale(0.9)"}} >
                             <ContactForm></ContactForm>
                         </div>
                     </div>

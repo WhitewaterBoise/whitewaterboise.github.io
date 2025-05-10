@@ -23,9 +23,9 @@ const ContactForm = () =>{
 
     return (
 
-        <section className="contact4-hero ">
+        <section className="contact4-hero mt-30">
         <div className="contact4-content mt-2">
-          <h2>Connect with us: </h2>
+          <h2 >Connect with us: </h2>
   
                  <form className="contact-form" action="https://formsubmit.co/chang.owen.zhang@gmail.com" method="POST">
                   {/* <div className="form-group">
@@ -93,6 +93,7 @@ const ContactForm = () =>{
                       <h2 style={{ fontSize: "12px", alignItems: "center" }}> &nbsp; We use third-party service to deliver emails but information will not be collected by third-party.</h2>
                     </span>
                   </div> */}
+                  <a className="submit-btn mx-10"  href="tel:+1234567890" >📞 Call Us</a>
                   <a  className="submit-btn mx-10" href="https://formsubmit.co/el/huyavo" target="_blank" rel="noreferrer">Email us</a>
                   <div className='flex'>
                     <span> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"
@@ -101,8 +102,9 @@ const ContactForm = () =>{
                     </svg>
                     </span>
                     <span>
-                      <h2 style={{ fontSize: "12px", alignItems: "center" }}> &nbsp; We use third-party service to deliver emails but information will not be collected by third-party.</h2>
+                      <h3 style={{ fontSize: "12px", alignItems: "center" ,color:"black"}}> &nbsp; We use third-party service to deliver emails but information will not be collected by third-party.</h3>
                     </span>
+
                   </div>
                 </form>
                    
