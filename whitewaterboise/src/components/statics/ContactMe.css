@@ -156,7 +156,7 @@
   padding: 12px 20px;
   font-size: 16px;
   color: white;
-  background-color: #1866e2;
+  background-color: #3618e2;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -164,7 +164,8 @@
 }
 
 .submit-btn:hover {
-  background-color: #115bd1;
+  color:#ddd;
+  background-color: #4a1dee;
 }
 
 /* Loading Screen Styling */
