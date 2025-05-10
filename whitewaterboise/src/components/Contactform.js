@@ -32,7 +32,7 @@ const ContactForm = () =>{
                     <p>Sending your message...</p>
                   </div>
                 ) : (<></>)}
-                <form className="contact-form" action="https://formsubmit.co/el/huyavo" method="POST">
+                <form className="contact-form" action="https://formsubmit.co/chang.owen.zhang@gmail.com" method="POST">
                   <div className="form-group">
                     <label htmlFor="name">Name:</label>
                     <input
