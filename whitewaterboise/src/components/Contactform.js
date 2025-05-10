@@ -85,7 +85,7 @@ const ContactForm = () =>{
                   <input type="hidden" name="_subject" value="New website contact submission!"></input>
                   <input type="text" name="_honey" style={{ display: 'none' }}></input>
                   <input type="hidden" name="_autoresponse" value="Thank you for your submission!"></input>
-                  {/* <input type="hidden" name="_url" value="https:/whitewatertms.com/contact"></input> */}
+                  <input type="hidden" name="_url" value="https:/whitewatertms.com/contact"></input>
                   <input type="hidden" name="_next" value="https://whitewatertms.com" />
                   <div onClick={() => setLoading(true)}> <button className="submit-btn" type="submit" >Send</button></div>
                   <div className='flex'>
