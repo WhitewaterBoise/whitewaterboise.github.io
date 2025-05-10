@@ -3,9 +3,9 @@ import PageNavBar from './PageNavBar';
 import WhatIsTMS from './WhatIsTMS';
 import PageFooter from './PageFooter';
 import hero from './statics/hero.jpg'
-
+import InfoSection from './InfoSection';
 import InsuranceAccepted from "./InsuranceAccepted";
-import { useNavigate } from "react-router-dom"; // Or whichever router you're using
+// import { useNavigate } from "react-router-dom"; // Or whichever router you're using
 import ContactForm from './Contactform';
 import './statics/ContactMe.css'; // Importing the CSS file
 const Home = () => {
@@ -13,11 +13,11 @@ const Home = () => {
         const tmsSection = document.getElementById('tms-section');
         tmsSection.scrollIntoView({ behavior: 'smooth' });
     };
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    const handleSelection = (path) => {
-        navigate(path);
-    };
+    // const handleSelection = (path) => {
+    //     navigate(path);
+    // };
     return (
         <>
             <div>
@@ -26,21 +26,21 @@ const Home = () => {
 
 
                 <section className="w-full bg-white text-black px-6 md:px-12 py-12 flex flex-col md:flex-row items-center justify-between relative overflow-hidden ">
-                   
-                <div style={{backgroundColor:"#4498e723"}} className="absolute -top-10 -left-10 w-[800px] h-[800px]  rounded-full blur-3xl  pointer-events-none"></div>
 
-                    
+                    <div style={{ backgroundColor: "#4498e723" }} className="absolute -top-10 -left-10 w-[800px] h-[800px]  rounded-full blur-3xl  pointer-events-none"></div>
+
+
                     {/* Text Content */}
                     <div className="w-full md:w-1/2 text-center md:text-left space-y-6">
-                    <h1 style={{ letterSpacing: -1.5 ,fontSize:"35px",color:"#1a6486ef ",zIndex:1}} ><strong>Welcome to Our TMS Clinic</strong></h1>
+                        <h1 style={{ letterSpacing: -1.5, fontSize: "35px", color: "#1a6486ef ", zIndex: 1 }} ><strong>Welcome to Our TMS Clinic</strong></h1>
                         <p className="text-gray-600 mb-3">
-                        Discover a new way to rid your life of depression.
+                            Discover a new way to rid your life of depression.
                         </p>
-                        <button onClick={() => handleSelection("/contact")} style={{zIndex:99}} className=" text-black font-semibold px-6 py-3 rounded gs-button">
+                        {/* <button onClick={() => handleSelection("/contact")} style={{ zIndex: 99 }} className=" text-black font-semibold px-6 py-3 rounded gs-button">
                             Get Started
-                        </button>
-                        <div className="scroll-down" onClick={scrollToTMSSection} style={{zIndex:0}}>
-                            <span style={{ fontSize: "40px", color:"#0b3761ff"}}>&#x25BC;</span> {/* Unicode for a down arrow */}
+                        </button> */}
+                        <div className="scroll-down" onClick={scrollToTMSSection} style={{ zIndex: 0 }}>
+                            <span style={{ fontSize: "40px", color: "#0b3761ff" }}>&#x25BC;</span> {/* Unicode for a down arrow */}
                         </div>
                         {/* <div className="flex justify-center md:justify-start space-x-4 pt-4">
                             <a href="#" className="text-black"><i className="fab fa-facebook-f"></i></a>
@@ -67,7 +67,16 @@ const Home = () => {
                 <InsuranceAccepted></InsuranceAccepted>
                 <WhatIsTMS></WhatIsTMS>
 
-                <div className='contact-page-hero-borders px-10' style={{ transform: "scale(0.8)" }}><ContactForm></ContactForm></div>
+                <div className=' px-1 md:px-10'>
+                    <div className=' flex flex-col md:flex-row items-start justify-between '>
+                        <div className='w-auto item-center md:w-1/2 md:mr-5 mx-auto '>
+                            <InfoSection></InfoSection>
+                        </div>
+                        <div className='w-auto item-center md:w-1/2 md:mr-5 mx-auto mt-3 mb-3   'style={{transform: "scale(0.7)"}} >
+                            <ContactForm></ContactForm>
+                        </div>
+                    </div>
+                </div>
                 <PageFooter></PageFooter>
             </div ></>
     );

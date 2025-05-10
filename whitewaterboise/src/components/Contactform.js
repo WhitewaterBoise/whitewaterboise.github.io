@@ -82,8 +82,10 @@ const ContactForm = () =>{
                     ></textarea>
                   </div>
                   {/* <input type="hidden" name="_captcha" value="false" /> */}
+                  <input type="hidden" name="_subject" value="New website contact submission!"></input>
                   <input type="text" name="_honey" style={{ display: 'none' }}></input>
-                  <input type="hidden" name="_url" value="https:/whitewatertms.com/contact.html"></input>
+                  <input type="hidden" name="_autoresponse" value="Thank you for your submission!"></input>
+                  {/* <input type="hidden" name="_url" value="https:/whitewatertms.com/contact"></input> */}
                   <input type="hidden" name="_next" value="https://whitewatertms.com" />
                   <div onClick={() => setLoading(true)}> <button className="submit-btn" type="submit" >Send</button></div>
                   <div className='flex'>
@@ -93,7 +95,7 @@ const ContactForm = () =>{
                     </svg>
                     </span>
                     <span>
-                      <h2 style={{ fontSize: "12px", alignItems: "center" }}> &nbsp; Information will be stored in our official email inbox. Information will not be shared with third-party services.</h2>
+                      <h2 style={{ fontSize: "12px", alignItems: "center" }}> &nbsp; We use third-party service to deliver emails but information will not be collected by third-party.</h2>
                     </span>
                   </div>
                 </form>
