@@ -93,7 +93,7 @@ const ContactForm = () =>{
                     </svg>
                     </span>
                     <span>
-                      <h2 style={{ fontSize: "12px", alignItems: "center" }}> &nbsp; Information will be stored in our official email inbox. Information will not be shared with third-party services.</h2>
+                      <h2 style={{ fontSize: "12px", alignItems: "center" }}> &nbsp; We use third-party service to deliver emails but information will not be collected by third-party.</h2>
                     </span>
                   </div>
                 </form>

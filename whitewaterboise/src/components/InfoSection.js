@@ -2,9 +2,9 @@ import React from "react";
 
 const InfoSection = () => {
   return (
-    <div className="flex flex-col gap-10 max-w-4xl mx-auto my-16 px-4">
+    <div className="flex flex-col gap-10 max-w-4xl mx-auto my-16 px-4 ">
       {/* Block 1 */}
-      <div className="flex items-start gap-6">
+      <div className="flex items-start gap-6 mt-20 ">
         <div className="shrink-0">
           <img
             src="https://v.fastcdn.co/u/89b2219b/60950206-0-Part-1.png"

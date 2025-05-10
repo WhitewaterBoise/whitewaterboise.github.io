@@ -67,12 +67,12 @@ const Home = () => {
                 <InsuranceAccepted></InsuranceAccepted>
                 <WhatIsTMS></WhatIsTMS>
 
-                <div className=' px-10'>
+                <div className=' px-1 md:px-10'>
                     <div className=' flex flex-col md:flex-row items-start justify-between '>
                         <div className='w-auto item-center md:w-1/2 md:mr-5 mx-auto '>
                             <InfoSection></InfoSection>
                         </div>
-                        <div className='w-auto item-center md:w-1/2 md:mr-5 mx-auto '>
+                        <div className='w-auto item-center md:w-1/2 md:mr-5 mx-auto mt-3 mb-3   'style={{transform: "scale(0.7)"}} >
                             <ContactForm></ContactForm>
                         </div>
                     </div>

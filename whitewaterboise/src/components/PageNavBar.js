@@ -10,17 +10,17 @@ export default function PageNavBar() {
         <span className=" self-center whitespace-nowrap text-xl font-semibold poiret-one-regular" style={{letterSpacing: -1 }}>WHITEWATER TMS</span>
         <img style={{filter: " saturate(1.5)"}} src={neurostar} className="ml-2 h-6 sm:ml-5 " alt="Neurostar logo" />
       </Navbar.Brand>
-      <div className="flex md:order-2">
+      <div className="flex md:order-2"> 
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
-        <Navbar.Link href="/" active>
+        {/* <Navbar.Link href="/" active>
           Home
-        </Navbar.Link>
-        <Navbar.Link style={{marginTop:"-8px"}} href="ourteam">Our Team</Navbar.Link>
-        <Navbar.Link  style={{marginTop:"-8px"}} href="contact">Contact</Navbar.Link>
-        <Navbar.Link style={{marginTop:"-8px"}} href="faq">FAQ</Navbar.Link>
-        <Navbar.Link style={{marginTop:"-8px"}} href="https://neurostar.com/">NeuroStar</Navbar.Link>
+        </Navbar.Link> */}
+        <Navbar.Link  className=" text-center" style={{marginTop:"-8px"}} href="ourteam">Our Team</Navbar.Link>
+        <Navbar.Link   className="w-20 text-center" style={{marginTop:"-8px"}} href="contact">Contact</Navbar.Link>
+        <Navbar.Link  className="w-20 text-center" style={{marginTop:"-8px"}} href="faq">FAQ</Navbar.Link>
+        <Navbar.Link  className="w-20 text-center" style={{marginTop:"-8px"}} href="https://neurostar.com/">NeuroStar</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
