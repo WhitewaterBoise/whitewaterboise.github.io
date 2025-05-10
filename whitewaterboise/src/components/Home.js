@@ -5,7 +5,7 @@ import PageFooter from './PageFooter';
 import hero from './statics/hero.jpg'
 import InfoSection from './InfoSection';
 import InsuranceAccepted from "./InsuranceAccepted";
-import { useNavigate } from "react-router-dom"; // Or whichever router you're using
+// import { useNavigate } from "react-router-dom"; // Or whichever router you're using
 import ContactForm from './Contactform';
 import './statics/ContactMe.css'; // Importing the CSS file
 const Home = () => {
@@ -13,11 +13,11 @@ const Home = () => {
         const tmsSection = document.getElementById('tms-section');
         tmsSection.scrollIntoView({ behavior: 'smooth' });
     };
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    const handleSelection = (path) => {
-        navigate(path);
-    };
+    // const handleSelection = (path) => {
+    //     navigate(path);
+    // };
     return (
         <>
             <div>
