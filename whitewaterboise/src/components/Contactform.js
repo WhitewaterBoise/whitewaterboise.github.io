@@ -93,7 +93,7 @@ const ContactForm = () =>{
                       <h2 style={{ fontSize: "12px", alignItems: "center" }}> &nbsp; We use third-party service to deliver emails but information will not be collected by third-party.</h2>
                     </span>
                   </div> */}
-                  <a className="submit-btn mx-10"  href="tel:+2083506690" >📞 Call Us</a>
+                  <a className="submit-btn mx-10"  href="tel:+012083506690" >☎️ Call Us</a>
                   <a  className="submit-btn mx-10" href="https://formsubmit.co/el/huyavo" target="_blank" rel="noreferrer">Email us</a>
                   <div className='flex'>
                     <span> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"
