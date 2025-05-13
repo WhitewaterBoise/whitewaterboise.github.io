@@ -27,7 +27,7 @@ const ContactForm = () =>{
         <div className="contact4-content mt-2">
           <h2 >Connect with us: </h2>
   
-                 <form className="contact-form" action="https://formsubmit.co/chang.owen.zhang@gmail.com" method="POST">
+                 <form className="contact-form">
                   {/* <div className="form-group">
                     <label htmlFor="name">Name:</label>
                     <input
@@ -95,6 +95,7 @@ const ContactForm = () =>{
                   </div> */}
                   <a className="submit-btn mx-10"  href="tel:+1-208-350-6690" >☎️ Call Us</a>
                   <a  className="submit-btn mx-10" href="https://formsubmit.co/el/huyavo" target="_blank" rel="noreferrer">Email us</a>
+                  <a  className="submit-btn mx-10" href="https://phq9web.azurewebsites.net/PHQ9/Survey/89006">Self-Assessment</a>
                   <div className='flex'>
                     <span> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"
                       style={{ fill: "#f02233", width: "19px", height: "19px" }}>
